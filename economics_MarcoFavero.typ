@@ -29,6 +29,7 @@
   #body
 ]
 #let example(body) = note(title: "Example")[#body]
+#let mynote(body) = note(title: "Personal note")[#body]
 #let ex(body) = text(fill: accent, size: 0.93em)[ (e.g. #body)]
 #let ita(word) = text(fill: accent, size: 0.9em)[ (it. _#word;_)]
 
@@ -42,7 +43,7 @@
 
 #v(1.5em)
 #note[
-  Text in blue contains examples, intuitions and personal remarks that go beyond the book: boxes like this one, examples written as #text(fill: accent)[(e.g. …)], and Italian translations of key words written as #text(fill: accent)[(it. …)].
+  Text in blue is not from the book: "Personal note" boxes, examples written as #text(fill: accent)[(e.g. …)], and Italian translations of key words written as #text(fill: accent)[(it. …)].
 ]
 
 #v(1em)
@@ -50,311 +51,772 @@
 
 = Sources of innovation
 
-Innovation can arise from many different sources — virtually every field can produce it. The most common sources are:
+- *Individuals*: lone inventors or users designing solutions for their own needs;
+- *Universities*, *government laboratories and incubators*, and *private non-profit organizations*;
+- *Firms*: a primary engine, thanks to greater resources, management systems, and incentives to differentiate.
 
-- *Firms*: well suited to innovation, since they have greater resources than individuals and a management system to direct those resources towards a collective purpose. Firms also face strong incentives to develop differentiating products and services (more than non-profit organizations and government-funded entities do);
-- *Individuals*: either as lone inventors or as users who design solutions to their own problems;
-- *Universities and government-funded research*;
-- *Private non-profit organizations*.
+#mynote[All fields can produce innovation.]
 
-An even more important source of innovation, however, is not any single one of these actors, but the *linkages between them* (firms working with universities, governments funding private research, and so on): see @collab-networks.
+Even more important are the *linkages between them* (networks of innovators, see @collab-networks): sources of innovation form a *complex system* where innovation may emerge from any component or linkage.
+
+*Innovation* is the practical implementation of an idea into a new device or process.
 
 == Creativity
 
-*Creativity* is the ability to generate new and useful ideas, i.e. to produce work that is both *useful* and *novel*. Both conditions are needed: a novel idea with no use, or a useful idea that already exists, is not creative.
+*Creativity* is the ability to produce work that is both *useful* and *novel* (different from previous work and _surprising_, not just the next logical step). The degree of *novelty* depends on how different the work is from prior work and on the audience:
 
-- *Individual creativity* is a function of intellectual abilities, knowledge, personality, motivation, and environment;
-- *Organizational creativity* is a function of the creativity of the individuals within the organization, plus the social processes and contextual factors that shape how those individuals interact and behave. Methods of encouraging organizational creativity include:
-  - *idea collection systems* (e.g. suggestion boxes, idea platforms): easy to implement, but only a first step in unleashing employee creativity;
-  - *creativity training programs*;
-  - a *culture that encourages creativity*.
+- novel only to its creator, but known to others: *reinvention*;
+- novel to the local audience, but known elsewhere;
+- the most creative works are novel at the *individual*, *local audience* and *broader societal* level.
+
+=== Individual creativity
+
+Individual creativity is a function of (the chapter summary also lists *thinking styles*):
+
+- *Intellectual abilities*: intelligence, memory, unconventional views, judging and selling ideas. Key is *primary process thinking*: unstructured, visual thinking that combines unrelated ideas (*remote associations* or *divergent thinking*). Good *working memory* lets creative people reach uncommon associations faster;
+- *Knowledge*: *double-edged*. Too little prevents a meaningful contribution; too much traps one in existing paradigms. Moderate knowledge may be best; breakthroughs often come from *outsiders*;
+- *Personality*: mainly *openness to experience* (imagination, curiosity, preference for variety);
+- *Motivation*: *intrinsic motivation* is very important; *extrinsic motivation* (money, awards) can undermine creativity (small rewards may still signal a culture that invites ideas);
+- *Environment*: time to explore independently, tolerance for unorthodox ideas, a non-rigid, non-hierarchical structure, and decisions that do not require consensus.
+
+=== Organizational creativity
+
+Organizational creativity is *not a simple aggregate* of individual creativity: structure, routines and incentives can thwart or amplify it. Methods to tap employees' creativity:
+
+- *Idea collection systems* (suggestion boxes, idea databases, innovation competitions): cheap and easy, but only a *first step*;
+- *Creativity training programs*: teach managers cues showing respect for employees' thinking and autonomy, which *shape the firm's culture* (often more effective than money), plus exercises (alternative scenarios, analogies, restating the problem).
 
 == Translating creativity into innovation
 
-*Innovation* is the _implementation_ of creative ideas into new devices or processes. Creativity alone is not enough: turning an idea into an innovation also requires resources and expertise.
+Innovation requires _implementing_ a creative idea, combining it with the *resources and expertise* to embody it in a useful form:
 
-$ "innovation" = "creativity" + "resources and expertise" $
+Innovation therefore requires creativity plus the resources and expertise to implement it.
 
-=== Inventors
+=== The inventor
 
-Inventors have mastered the basic tools and operations of the field in which they invent. They are curious, more interested in problems than in solutions, and they question the assumptions made in previous work in the field. Finally, they seek global solutions, not just local ones.
+According to a 10-year study, the most successful inventors:
+
++ have mastered the basic tools of their field but have *not specialized solely in it*: they pursue *two or three fields simultaneously*;
++ are curious and more interested in *problems than solutions*;
++ *question the assumptions* of previous work;
++ feel that *all knowledge is unified*: they seek *global rather than local solutions* and are *generalists*.
+
+Being *inventive* does not imply being *entrepreneurial*, though the best-known inventors were both.
 
 === Innovation by users
 
-Users create solutions for their own needs and for their own use. Because they experience the problem directly, they often understand it better than manufacturers do.
+Users have a *deep understanding of their unmet needs* and the *incentive* to fulfil them. Unlike manufacturers, they often have *no initial intention to profit* from selling the innovation.
 
 === Research and development by firms
 
-- *Research*: there are two types of research.
-  - _Basic research_ aims at increasing the understanding of a topic or field, without an immediate commercial application in mind;
-  - _Applied research_ aims at increasing the understanding of a topic or field in order to meet a specific need;
-- *Development*: activities that apply knowledge to produce useful devices, materials, or processes.
+In most developed countries *firms perform the majority of R&D* and consider in-house R&D their most important source of innovation.
 
-Two classic models describe where innovation starts:
+- *Basic research*: increasing understanding of a field for its own sake, without a specific immediate commercial application;
+- *Applied research*: increasing understanding to meet a specific need (in industry, usually commercial);
+- *Development*: applying knowledge to produce useful devices, materials, or processes.
 
-- *Science-push*: innovation proceeds linearly from scientific discovery, to invention, to design, to manufacturing, to marketing;
-- *Demand-pull*: innovation starts from customer needs and suggestions, which then drive invention and manufacturing.
+*R&D intensity* (R&D expenditure as % of revenues) correlates positively with sales growth, sales from new products, and profitability.
 
-Both models are simplifications: in practice, most innovations come from the interaction between scientific discoveries and market needs.
+Two historical models of R&D:
+
+- *Science-push* (1950s-1960s): linear process from scientific discovery to invention, engineering, manufacturing and marketing. Little real applicability;
+- *Demand-pull* (from mid-1960s): innovation driven by perceived user demand. Also too simplistic.
+
+*Rothwell*: different phases of innovation involve varying levels of science push and demand pull. Successful innovators use *multiple sources*:
+
+- in-house R&D, including basic research;
+- linkages to customers or other potential users;
+- linkages to an external network of firms (competitors, complementors, suppliers);
+- linkages to other external sources of scientific and technical information (universities, government laboratories).
 
 === Firm linkages with customers, suppliers, competitors, and complementors
 
-- *External versus internal sources of innovation*: firms that do in-house R&D are also the heaviest users of external collaboration networks. The two are complementary: doing R&D internally builds the firm's *absorptive capacity*#footnote[The ability of an organization to recognize, assimilate, and utilize new knowledge.], which in turn lets it make better use of information obtained from external sources;
-- *Universities*: they do research with smaller resources than firms, and contribute to innovation through the publication of results, patents and licensing, and spin-off companies;
-- *Governments*: they do research through their own laboratories, science parks and incubators, and fund other public or private research organizations through grants;
-- *Private non-profit organizations*: they perform in-house R&D, fund R&D in other organizations, or both.
+Forms of collaboration: *alliances*, *research consortia*, *licensing arrangements*, *contract R&D*, *joint ventures*, and others (Chapter 8). Collaborators *pool resources* and *share the risk* of new product development.
+
+- Most frequent partners: *customers*, *suppliers* and *local universities*; firms consider *users their most valuable source* of ideas;
+- *Complementors*: producers of complementary goods. A firm can be both competitor and complementor and must balance the two roles.
+
+*External versus internal sourcing*: external sources *complement*, not substitute, in-house R&D. Firms with their own R&D use external networks most, because in-house R&D builds *absorptive capacity*#footnote[The ability of an organization to recognize, assimilate, and utilize new knowledge.] (Chapter 4).
+
+=== Universities and government-funded research
+
+*Universities.* In the US, they are the *second largest R&D performer after industry* and the *first in basic research*.
+
+- *Technology transfer offices*: facilitate transferring technology from research to commercial application;
+- They spread in the US after the *Bayh-Dole Act* (1980), which let universities collect royalties on taxpayer-funded inventions (previously the federal government held all rights). Some countries (Sweden, Italy) keep the *"professor's privilege"* (faculty own their inventions);
+- Licensing revenues were far lower than expected, so universities now actively create *start-ups* from their IP and build ties with industry;
+- Universities also contribute through *publication of research results*.
+
+*Government-funded research*: via *own laboratories*, *science parks and incubators*, and *grants*. In some countries it exceeds industry-funded R&D.
+
+- *Science parks*: regional districts, usually government-created, fostering R&D collaboration between government, universities and firms;
+- *Incubators*: institutions nurturing new businesses that lack adequate funding or advice.
+
+Science parks often give rise to *technology clusters*.
+
+=== Private non-profit organizations
+
+Private non-profits (research institutes, non-profit hospitals, foundations, professional societies, consortia, trade associations) may perform their own R&D, fund others' R&D, or both.
 
 == Innovation in collaborative networks <collab-networks>
 
-Collaborative networks are especially important in high-technology sectors, where individual firms rarely possess all the resources and capabilities needed to innovate alone. The more relationships a firm has, the wider the diffusion of information and resources it can access.
+Collaborative R&D networks include joint ventures, licensing and second-sourcing agreements, research associations, government-sponsored joint research programs, value-added networks for technical and scientific interchange, and informal networks. They matter most in *high-technology sectors*.
 
-*Technology clusters* are regional concentrations of firms (and often universities and research centers) that have a connection to a common technology #ex[Silicon Valley for semiconductors and software]. Being close helps firms exchange knowledge, especially _tacit_ knowledge that is hard to transmit at a distance, and share a common pool of skilled workers and suppliers. The likelihood of innovation activities being geographically clustered depends on:
+Networks act as *conduits for information and other resources*, giving members access to more than each owns. Network *structure* shapes information flow: in a *dense network* diffusion is *rapid and widespread* (firm position: Chapter 8).
 
-- the nature of the technology (the more tacit or complex the knowledge, the more proximity matters);
-- the characteristics of the industry;
-- the cultural context of the technology.
+=== Technology clusters
 
-*Technological spillovers* occur when the benefits of one firm's research activities spill over to other firms (e.g. through employees changing job, publications, imitation). How large they are depends on:
+*Technology clusters*: regional clusters of firms connected to a common technology; they range from a city to several countries.
 
-- the strength of the protection mechanisms (patents, secrecy, etc.);
-- the nature of the underlying knowledge base (tacit knowledge spills over less easily);
-- the mobility of the labor pool.
+*Why clusters form*: *proximity aids knowledge exchange*, since knowledge does not always transfer well at a distance. Proximity affects:
+
+- the *ability* to exchange knowledge: *tacit* (not easily codified) and *complex* (many components/interdependencies) knowledge requires frequent close interaction;
+- the *willingness* to exchange: interaction builds *trust and reciprocity norms*.
+
+Innovation productivity becomes *self-reinforcing*: new firms, spin-offs, supplier markets, skilled labour and better infrastructure follow. These benefits are *agglomeration economies*.
+
+*Downsides* of clustering:
+
++ many nearby competitors reduce pricing power with buyers and suppliers;
++ competitors more easily access proprietary knowledge (technology spillovers);
++ congestion, high housing costs, pollution.
+
+Technologies stay localized also because knowledge is *held by people* who are *reluctantly mobile* (they stay in the region when changing jobs). The degree of geographic clustering depends on:
+
+- *nature of the technology*: knowledge base, protectability by patents or copyright, need for close and frequent interaction;
+- *industry characteristics*: market concentration, industry life-cycle stage, transportation costs, availability of supplier and distributor markets;
+- *cultural context*: population density of labour or customers, infrastructure, national differences in funding or protecting technology.
+
+=== Technological spillovers
+
+Clusters research stresses the *"stickiness" of knowledge*; *technological spillovers* explain its spread across boundaries. They occur when benefits of one entity's research spill over to others: a *positive externality* of R&D.
+
+The likelihood of spillovers depends on:
+
+- the strength of *protection mechanisms* (patents, copyrights, trade secrets; Chapter 9), varying by industry and country;
+- the *nature of the knowledge base* (tacit knowledge flows less across firms);
+- the *mobility of the labour pool*.
 
 = Types and patterns of innovation
 
-Innovations can be classified along several dimensions.
+A *technology trajectory* is the path a technology follows through time: its rate of performance improvement or of adoption (diffusion). Some patterns recur across industries.
 
-*1. What is being changed: product vs. process.*
+== Types of innovation
 
-- *Product innovation*: new or improved products (or services) that the firm offers to its customers. The success of many companies is tied to their ability to innovate in the products they offer;
-- *Process innovation*: a new or significantly improved way of producing or delivering a product. It can involve changes in techniques, equipment and/or software.
+Four dimensions are commonly used; each type requires different knowledge and impacts competitors and customers differently.
 
-The two are linked: a product innovation can enable a process innovation, and vice versa #ex[a new material may require a new production process; a new production process may make it possible to build a new product].
+=== Product vs. process innovation
 
-*2. How big the change is: incremental vs. radical.*
+- *Product innovation*: embodied in the _outputs_ of an organization (goods or services).
+- *Process innovation*: a change in the _way an organization conducts its business_ (production or marketing techniques), often aimed at efficiency.
 
-- *Incremental innovation*: a gradual improvement or adjustment of existing products, services, processes or methods. It is often driven by customer feedback and aims at maintaining or improving the company's competitive position;
-- *Radical innovation*: something very new and very different from existing solutions. It is often driven by technological advances and can create new markets or disrupt existing ones.
+They often occur *in tandem* (each enables the other), and a product innovation for one firm may be a process innovation for another. Product innovations are more visible, but both matter.
 
-Radicalness is relative: an innovation can be radical for one industry and incremental for another.
+=== Radical vs. incremental innovation
 
-*3. What it does to the firm's capabilities: competence-enhancing vs. competence-destroying.*
+A *continuum* based on how far an innovation departs from existing practices. *Radicalness* combines *newness* (new to the world, an industry, a firm, or just a business unit) and *differentness* (significantly or marginally different from existing products and processes).
 
-- *Competence-enhancing*: builds on the firm's existing knowledge and capabilities, and extends them. #ex[Apple moving from the M4 to the M5 chip: just an improvement of what it already knows how to do]
-- *Competence-destroying*: does not build on the firm's existing capabilities, and makes them obsolete ("deprecated") by requiring new ones. #ex[Apple moving from Intel processors to its own M1 chips: the knowledge tied to the old architecture loses value]
+- *Radical innovation*: very new and different from prior solutions (the most radical are new to the world).
+- *Incremental innovation*: a relatively minor change to existing practices, possibly already known to the firm or industry.
 
-This dimension is always relative to a specific firm: the same innovation can be competence-enhancing for one firm and competence-destroying for another.
+Radicalness is also defined as *risk* (feasibility, reliability, costs, demand). It is *relative* both *over time* (it becomes incremental as the knowledge base becomes common) and *across observers* (radical for one firm, incremental for another, depending on competencies).
 
-*4. Which level of the product is affected: component vs. architectural.*
+=== Competence-enhancing vs. competence-destroying innovation
 
-- *Component (modular) innovation*: changes one or more components of a product system, without significantly affecting the overall design;
-- *Architectural innovation*: changes the overall design of the system, i.e. the way the components interact with each other. It usually has a much bigger impact, because it requires the firm to rethink how everything fits together.
+Always judged *from the perspective of a particular firm*; the same innovation can be enhancing for one firm and destroying for another.
 
-Finally, there are also entirely new fields of innovation, such as *social innovation*: new ideas, services or models that better meet social needs and create new social relationships or collaborations.
+- *Competence-enhancing*: builds on and makes more valuable the firm's existing knowledge base. #ex[Apple moving from the M4 to the M5 chip: just an improvement of what it already knows how to do]
+- *Competence-destroying*: does not build on existing competencies, or renders them obsolete. #ex[Apple moving from Intel processors to its own M1 chips: the knowledge tied to the old architecture loses value]
 
-== Technological S-curves
+=== Architectural vs. component innovation
 
-S-curves are used to describe two different phenomena.
+Most products are *hierarchically nested systems* of components.
 
-*1. The rate of a technology's performance improvement.* Plotting the performance of a technology against the effort (money, time) invested in developing it, we get an S-shaped curve:
+- *Component (modular) innovation*: changes one or more components without significantly affecting the overall configuration; may need only knowledge of that component.
+- *Architectural innovation*: changes the overall design or how components interact. A _strictly_ architectural one only reconfigures the links, but most also change components and have far-reaching effects. It requires *architectural knowledge* of how components link and interact.
 
-- *at the beginning* improvement is slow: the technology is poorly understood, there may be no established routines to evaluate its progress, and until it has gained some legitimacy it is hard to attract other researchers to work on it;
-- *then* improvement accelerates, as the technology becomes better understood and more people work on it;
-- *finally* the technology approaches its inherent limits: each further improvement costs more and more, and the curve flattens.
+=== Using the dimensions
 
-Technologies do not always reach their limits: they may be made obsolete first by a *discontinuous technology*#footnote[A new technology that fulfills a similar market need, but builds on an entirely new knowledge base. Example: digital photography replacing film photography.], which starts its own new S-curve.
+The dimensions are *not independent* (architectural innovations are often more radical and competence-destroying) and placement depends on *who describes the innovation and against what* (radical for a producer, incremental for a customer): they are *relative*, context-dependent.
 
-*2. The rate of a technology's market penetration (diffusion).* Plotting the cumulative number of adopters against time, we again get an S-curve, with three phases:
+#mynote[
+  There are also other fields of innovation, such as *social innovation*: new ideas, services or models that better meet social needs and create new social relationships or collaborations.
+]
 
-+ *Slow growth*: the technology is not well understood, and potential adopters are not yet convinced of its value;
-+ *Rapid growth*: the technology becomes better understood, and potential adopters become convinced of its value;
-+ *Maturity*: the market is saturated, and the few remaining potential adopters join slowly.
+== Technology s-curves
 
-Diffusion of a technology takes much longer than diffusion of information about it: knowing that a technology exists is not enough to adopt it, because adoption also requires the knowledge to use it, the money to invest in it, and the availability of complementary goods.
+Both a technology's *performance improvement* and its market *adoption* follow s-shaped curves; they are related but *fundamentally different processes*.
 
-*Limits of the S-curve model.* A technology may never reach the top of its curve, for various reasons:
+=== S-curves in technological improvement
 
-- a new technology arrives and replaces it;
-- the initial roughness of the technology discourages adopters;
-- it needs investments, which are a risk;
-- it depends on complementary goods/services #ex[a camera is useless without films].
+Plotting *performance against effort and money invested* gives:
 
-Moreover, as a tool for deciding _what to do_, the model is weak: the true limit of a technology is rarely known in advance, and the shape of the curve is not set in stone (it can be changed by the firm's own actions, by competitors, or by complementary goods). A firm does not have to follow the model: it is not completely reliable, but it describes a lot of real trends.
+- *slow early stage*: fundamentals poorly understood, many paths explored, no evaluation routines, no legitimacy to attract researchers;
+- *acceleration*: understanding, legitimacy and developers grow, and assessment measures focus effort on the most productive activities;
+- *flattening*: as the technology approaches its *inherent limits*, each marginal improvement costs more (diminishing returns).
+
+*Effort, not time*: a time plot gives the same curve only if effort is constant.
+
+==== Technological discontinuities
+
+A *discontinuous technology* fulfills a similar market need by building on an *entirely new knowledge base*, and may obsolete a technology before its limits.
+
+- Initially it may have *lower performance*, so firms are reluctant to switch; with a *steeper s-curve* or *higher limit*, its returns eventually overtake the incumbent's.
+- *New entrants* tend to choose it; *incumbents* must choose between extending the old technology and switching.
+- It is likely to displace the incumbent, at a widely varying *rate*.
+
+=== S-curves in technology diffusion
+
+*Technology diffusion* is the spread of a technology through a population. The *cumulative number of adopters over time* is an s-curve: slow at first, accelerating as the mass market adopts, slowing at saturation.
+
+Diffusion takes *far longer than information diffusion*, because of the *complexity of the underlying knowledge* (partly tacit, built through experience and personal contact) and the need for *complementary resources*.
+
+*Link between the curves*: improvement makes a technology more useful and (via learning and scale) cheaper, accelerating adoption, which in turn funds improvement.
+
+==== Adopter categories (Rogers)
+
+Different categories adopt at different times: cumulatively they form the s-curve; the *non-cumulative* share over time is *bell-shaped* (possibly skewed).
+
+#align(center)[
+  #table(
+    columns: 3,
+    stroke: 0.5pt + luma(180),
+    inset: 7pt,
+    align: left,
+    table.header([*Category*], [*Share*], [*Characteristics*]),
+    [*Innovators*], [first 2.5%], [Adventurous, comfortable with complexity and uncertainty, wealthy enough to afford failures; not always well integrated socially, but bring new ideas in.],
+    [*Early adopters*], [next 13.5%], [Well integrated, greatest opinion leadership; respected, decide carefully; others seek their advice ("missionaries").],
+    [*Early majority*], [next 34%], [Adopt slightly before average; risk averse, need to see the product is popular and safe; interact often with peers but are not opinion leaders.],
+    [*Late majority*], [next 34%], [Skeptical, adopt under peer pressure; scarce resources, wait until uncertainty is resolved.],
+    [*Laggards*], [last 16%], [Rely on past experience rather than social influence; almost no opinion leadership; need certainty the innovation will not fail.],
+  )
+]
+
+=== S-curves as a prescriptive tool
+
+Managers can use investment and performance data to see when a technology nears its limits or a new s-curve will intersect it, and decide *whether and when to switch*. *Limitations*:
+
++ the *true limits* are rarely known in advance, and firms disagree about them;
++ the *shape is not set in stone*: changes in the market, component or complementary technologies can change it, and firms can stretch it themselves (e.g. revamped architecture);
++ whether *switching* pays depends on the new technology's advantages, its fit with the firm's abilities and complementary resources, and the expected diffusion rate.
+
+So a firm following the model too closely may switch *too early or too late*.
+
+#mynote[
+  A technology may not reach the top of its curve: a new technology may be incoming; the initial roughness of the technology; it needs investments (a risk); it depends on complementary goods #ex[cameras and films]. A firm does not have to follow this model: it is not completely reliable, but it describes many trends.
+]
+
+=== Segment zero
+
+Technologies often *improve faster than customer requirements*: firms push into higher-margin, feature-rich tiers, while customers are slow to absorb new features.
+
+- The technology eventually *exceeds* mass-market needs.
+- The *low-end market* is left unserved: Andy Grove (Intel) called it *segment zero*.
+- If neglected, it breeds low-end entrants that eventually *meet mass-market needs at a much lower price* and capture share.
+
+== Technology cycles
+
+Technological change is *cyclical*: turbulence, rapid improvement, diminishing returns, displacement by a discontinuity that can overturn the industry. *Schumpeter* called this *creative destruction*, the key driver of progress in capitalism.
+
+=== Utterback and Abernathy: fluid and specific phases
+
+- *Fluid phase*: high uncertainty; crude or expensive products serve niches; firms experiment with features.
+- A *dominant design* emerges when producers and customers agree on the desired attributes: a design adopted by most producers, creating a *stable architecture*.
+- *Specific phase*: firms focus on process innovations and incremental component innovations, all specific to the dominant design.
+
+=== Anderson and Tushman: the technology cycle
+
+#align(center)[
+  #table(
+    columns: 2,
+    stroke: 0.5pt + luma(180),
+    inset: 7pt,
+    align: left,
+    table.header([*Stage*], [*What happens*]),
+    [*Technological discontinuity*], [Starts the cycle.],
+    [*Era of ferment*], [Turbulence and uncertainty: *substitution* (new displaces old) and *design competition* (little agreement on subsystems, their configuration, the technology's purpose or business model).],
+    [*Dominant design selected*], [Transition between the two eras.],
+    [*Era of incremental change*], [Elaboration of the dominant design: efficiency, market penetration and segmentation, cost reduction via simpler design or better processes. May account for most technological progress. Lasts until the next discontinuity.],
+  )
+]
+
+Properties of the dominant design:
+
+- it *always* arises, unless the next discontinuity comes too soon or producers patent proprietary technologies and refuse to cross-license;
+- it is *never the same as the original discontinuity* (competing designs come first);
+- it is *never on the leading edge*: it bundles the features that *best meet the requirements of the majority* rather than maximizing any single dimension.
+
+=== Why incumbents resist new architectures
+
+In the era of incremental change, firms refine knowledge of components and of the dominant architecture only. Divisions mirror components, communication channels mirror their interactions, and *filters* keep only information relevant to the existing design: these become *barriers* to recognizing a new architecture, so successful firms often resist superior technologies.
+
+*Exceptions*: where heterogeneity of products and processes is a primary source of value, a dominant design is undesirable.
 
 = Standards battles, modularity, and platform competition
 
-A *dominant design* is a single product design, standard or set of features that becomes accepted as the market standard and is adopted by most firms. Once a dominant design is established, the market becomes more predictable and stable, which provides a foundation for complementary products and services. #ex[the QWERTY keyboard, the USB standard]
+A *dominant design* is a single product or process architecture that dominates a category, usually with *50% or more of the market*. It is a *de facto standard* (not necessarily officially enforced). Almost every technology cycle selects one; afterwards firms and customers focus on improving its efficiency rather than exploring alternatives.
 
 == Why dominant designs are selected
 
-Many markets end up with a single dominant design because of *increasing returns to adoption*: the more people adopt a technology, the more valuable it becomes. There are two main sources of increasing returns.
+Markets converge because of *increasing returns to adoption*: the more a technology is adopted, the more valuable it becomes. Strictly, the _rate of return_ (not just gross returns) rises with the installed base. Adoption funds refinement, builds knowledge and attracts complementary assets: a self-reinforcing mechanism that works *regardless of the technology's superiority or inferiority*. Main sources: learning effects and network externalities.
 
-- *Learning effects*: the more a technology is used, the more it is developed and the more effective and efficient it becomes. A firm's investment in _prior learning_ also builds its absorptive capacity, accelerating its future learning and its ability to absorb new knowledge;
-- *Network externalities*: the value of a good to a user increases with the number of other users of the same or a compatible good #ex[WhatsApp: it is useful only if the people you want to talk to also use it]. The number of users of a technology is called its *installed base*. Network externalities also arise through *complementary goods*, i.e. other goods and services that enable or enhance the value of the technology #ex[apps for a smartphone].
+=== Learning effects
 
-These effects feed each other in a *self-reinforcing cycle*: a technology with a large installed base attracts the developers of complementary goods; a wide range of complementary goods attracts more users, which further increases the installed base, and so on.
+The more a technology is used, the more it is developed and the more efficient it becomes.
+
+*Learning curve*: performance rises, or cost falls, as cumulative output grows, usually at a decreasing rate. Learning rates differ by nature of the task, firm strategy and prior experience.
+
+*Absorptive capacity*: prior learning builds the ability to recognize, assimilate and utilize new knowledge, accelerating future learning. Early developers can stay ahead; firms that forgo investment struggle to catch up. The more firms use a technology, the more absorptive capacity and complements develop around it, so learning effects favor early offerings (though one can be too early, see timing of entry).
+
+=== Network externalities
+
+*Network externalities* (_positive consumption externalities_): a good's value to a user increases with the number of users of the same or similar good #ex[WhatsApp: it is useful only if the people you want to talk to also use it]. The number of users is the *installed base*. Beyond physical networks (railroads, telephones), they arise when:
+
+- *compatibility* matters: users pick the largest installed base to exchange files, and their training gains value;
+- *complementary goods* matter: goods that enable or enhance another good's value #ex[smartphones and apps].
+
+*Self-reinforcing cycle*: a large installed base attracts complements, which attract users. An early lead can lock competitors out.
 
 #align(center)[
-  installed base ↑ #h(0.5em) ⟶ #h(0.5em) more complementary goods #h(0.5em) ⟶ #h(0.5em) more attractive to users #h(0.5em) ⟶ #h(0.5em) installed base ↑
+  size of installed base #h(0.5em) -> #h(0.5em) availability of complementary goods #h(0.5em) -> #h(0.5em) size of installed base
 ]
 
-Other reasons why a dominant design emerges:
+Firms can also *build coalitions* around a preferred technology.
 
-- *Government regulation*: sometimes governments impose a standard to ensure consumer welfare #ex[the NTSC color television standard in the U.S., the GSM mobile standard in the European Union];
-- *Path dependency*: with increasing returns, the final outcome depends heavily on the specific sequence of events that led up to it. Small early advantages (even by chance) can snowball, so the winner is not necessarily the best technology.
+=== Government regulation
 
-*Impact*: these markets tend to be *winner-take-all* — the dominant design captures almost the entire market, and the losing technologies may be forced out completely.
+A standard can be imposed by *government regulation* when compatibility benefits consumer welfare (utilities, telecom, television) #ex[the EU's mandate of the GSM mobile phone standard, to avoid incompatible standards and facilitate exchange across borders].
+
+=== The result: winner-take-all markets
+
+These forces create *natural monopolies* and *winner-take-all markets*: *one or a few* designs take nearly all share; some alternatives survive in *niche markets*.
+
+- *Winners* earn near-monopoly rents, may dominate several product generations and shape the industry;
+- *Losers* must adopt the dominant technology, *forfeiting the capital, learning and brand equity* invested, or are *locked out*.
+
+*Path dependency*: outcomes depend heavily on prior events, and small historical events can have large effects. Beyond technical quality, two factors matter:
+
+- *timing*: early offerings may become so entrenched that later superior technologies cannot gain a foothold;
+- *sponsorship*: a powerful firm aggressively backing a technology can gain a controlling share.
+
+A dominant design's influence extends *beyond its own technology cycle*, creating a "sticky" paradigm that shapes the discontinuity that replaces it. Since superior products do not always win, winners manage the *multiple dimensions of value*.
 
 == Multiple dimensions of value
 
-The value that a new technology offers to a customer has two components.
+=== A technology's stand-alone value
 
-=== Technology standalone value
+*Stand-alone value*: value excluding installed base and complements (e.g. speed, ease of use, price).
 
-The value of the technology _by itself_: what it can do and the sources of appeal that do not depend on its installed base or on available complements (e.g. performance, design, ease of use, price).
+*Buyer Utility Map* (Kim and Mauborgne): *six stages of the buyer experience cycle* x *six utility levers* = *36-cell grid*; each cell is an opportunity for a new value proposition. It can be adapted beyond consumer products.
+
+#align(center)[
+  #table(
+    columns: 2,
+    stroke: 0.5pt + luma(180),
+    inset: 7pt,
+    align: left,
+    table.header([*Stages of the buyer experience cycle*], [*Utility levers*]),
+    [purchase], [customer productivity],
+    [delivery], [simplicity],
+    [use], [convenience],
+    [supplements], [risk],
+    [maintenance], [fun and image],
+    [disposal], [environmental friendliness],
+  )
+]
+
+Value is the *ratio of benefits to cost*.
 
 === Network externality value
 
-The value that comes from _the network_: the size of the installed base and the availability of complementary goods.
+*Network externality value*: value from installed base and complements:
 
-$ "total value" = "standalone value" + "network externality value" $
+#align(center)[
+  #table(
+    columns: 2,
+    stroke: 0.5pt + luma(180),
+    inset: 7pt,
+    align: left,
+    table.header([*Case*], [*Implication*]),
+    [(a) Existing technology], [stand-alone utility + installed base + complements],
+    [(b) New, incompatible technology], [competes on stand-alone utility alone, which must *eclipse the combined value* of the incumbent; so superior innovations often fail],
+    [(c) New, compatible technology], [inherits network value: a *moderate* advantage suffices],
+  )
+]
 
-When network externality value is large, a technology with a better standalone value can still lose against one with a larger installed base.
+=== Actual, perceived and expected value
+
+Users weigh *objective information* (actual benefits, installed base, complements), *subjective information* (perceived ones) and *expectations* (anticipated ones). These may be *proportional* or *disproportional*, so perceptions and expectations can matter as much as actual value. Firms *manage* them through:
+
+- heavy *advertising*, for mind share despite a small installed base;
+- *announcements* of preorders, licensing and distribution deals;
+- *vaporware*: advertising products not yet available to create an impression of ubiquity or make customers *delay purchase* of rivals' products.
+
+A large perceived/expected installed base can produce a large actual one.
+
+== Competing for design dominance in markets with network externalities
+
+Tipping depends on how fast value rises with installed base and how large a base yields most network benefits.
+
+- network returns are *S-shaped*: slow below a threshold, then rapid, then decreasing;
+- stand-alone utility shifts the whole curve up;
+- with two designs A and B with similar curves, the one with the larger share wins, and with equal shares customers are *indifferent*; if B has more standalone utility, A needs a clearly larger share to win;
+- if network value is fully tapped at minority shares, a large *indifference region* lets *two or more platforms coexist*.
+
+=== Network benefits vs monopoly costs
+
+To judge when a firm is too dominant, compare *network externality returns* to share (*S-shaped*) with *monopoly costs* to consumers (higher prices, less variety, stifled innovation; often *exponentially increasing*). Below the crossing point X benefits exceed costs. X moves *right* with higher technological utility and *left* if network returns flatten earlier. The cost curve's steepness depends on the firm's *discretionary behavior* (e.g. not charging the maximum price, or subtly favoring some suppliers or complementors).
 
 == Modularity and platform competition
 
-Products can be made increasingly *modular*, both by expanding the range of compatible components and by separating functions that used to be integrated into a single component. Modular products are often built around a *platform* (the core product) that other components plug into #ex[smartphones, Garmin devices and their accessories, etc.].
+When value depends heavily on complements, firms use modularity to build a *platform ecosystem* to which many firms contribute.
 
-Advantages of modularity:
+=== Modularity
 
-- more choice over functions, design, scale and other features, so each customer can put together a product suited to their specific needs;
-- the same components can be reused in different combinations, giving a wide product variety at a low cost.
+*Modularity*: the degree to which a system's components can be separated and recombined #ex[phones, Garmin, etc.]. It increases by *expanding the range of compatible components* and *uncoupling integrated functions within components*. Progression: (A) integrated bundle; (B) bundle compatible with third-party complements; (C) modular product with third-party components and complements.
+
+#align(center)[
+  #table(
+    columns: 2,
+    stroke: 0.5pt + luma(180),
+    inset: 7pt,
+    align: left,
+    table.header([*Advantages of tight integration*], [*Advantages of modularity*]),
+    [customized components achieve higher performance], [more choice, closer fit to customer needs],
+    [more control over quality and reliability], [*economies of substitution*: variety from recombining components while keeping scale economies],
+    [appeals to customers who do not want to assemble], [],
+  )
+]
+
+Modularity is more valuable with *(a) diverse technological options* and *(b) heterogeneous customer preferences*.
+
+=== Platform ecosystems
+
+An *ecosystem* is a system whose elements share mutual dependence; a *platform* is a stable core mediating between components, complements and end users; a *platform ecosystem* is a system of mutually dependent entities mediated by a stable core. Firms become *platform sponsors* or *producers of complements*.
+
+- *Boundaries*: *closed* (stable dedicated members, controlled entry) or *open* (free entry/exit, members on several platforms);
+- *Interdependence*: each member's success depends on the others, even competitors;
+- *Switching costs*: co-specialization and exclusivity create stickier ties than market contracts.
+
+It is a *hybrid organizational form*, a *compromise between pure modularity (loose coupling) and pure integration (tight coupling)*:
+
+#align(center)[
+  #table(
+    columns: 3,
+    stroke: 0.5pt + luma(180),
+    inset: 7pt,
+    align: left,
+    table.header([*Pure integration*], [*Platforms*], [*Pure modularity*]),
+    [producer decides combinations], [choice shepherded by sponsor], [most choice],
+    [high co-specialization], [some], [none],
+    [producer controls quality], [sponsor curates third parties], [quality uncertain],
+  )
+]
+
+*Platforms beat a tightly integrated product when*:
++ customers are diverse and want more choice than one firm can offer;
++ third-party options are diverse and high quality;
++ compatibility can be seamless without integration;
++ the sponsor controls quality and architecture without producing complements.
+
+*Platforms beat a purely modular system when*:
++ complements are nonroutine, uncertain purchases;
++ some integration gives performance advantages;
++ key components need subsidization.
+
+Sponsors manage ecosystem value by subsidizing key complements at launch, screening third-party complements, requiring exclusivity, and shaping perceptions (awards, bundling, marketing).
 
 = Timing of entry
 
-A technology that is adopted earlier than others may reap #ita("raccogliere") self-reinforcing advantages:
+With *increasing returns to adoption*, an early technology may reap #ita("raccogliere") self-reinforcing advantages (more funds, more complements, less customer uncertainty), but with few users and complements it may also fail. A firm can be:
 
-- more funds to invest in improving the technology;
-- greater availability of complementary goods;
-- less customer uncertainty.
+- *First movers (pioneers)*: the first entrants to sell in a new product or service category;
+- *Early followers* (also *early leaders*): early to the market, but not first;
+- *Late entrants*: they enter when the product begins to penetrate the mass market, or later.
 
-But if there are few users and few complementary goods, the technology may never manage to reach customers. With respect to timing, a firm can enter the market in three ways:
+Research gives *conflicting conclusions*:
 
-- *First movers (pioneers)*: the first to sell in a new product or service category;
-- *Early followers*: early to the market, but not first;
-- *Late entrants*: they enter the market when (or after) the product begins to penetrate the mass market.
+- studies grouping first movers and early followers as "early entrants" find *higher returns and survival rates* than late entrants (an early-mover advantage);
+- other studies find that the first firm is often the *first to fail*, so early followers outperform pioneers (Tellis and Golder: *early leaders*, entering after pioneers but taking leadership in the early growth phase, do much better than pioneers);
+- other research argues that the higher returns of being first typically *offset the survival risk*.
 
 == First-mover advantages
 
-- *Brand loyalty and technological leadership*: the first mover can earn a long-lasting reputation as the leader in that technology domain, which helps sustain its image, brand loyalty and market share #ex[WhatsApp in messaging]. Being the leader also lets it shape customer expectations about the product's form and features. If these aspects are hard for competitors to imitate, the firm can earn *monopoly rents* (profits above the normal level, made possible by the lack of competition); otherwise, it still has the chance to build brand loyalty before competitors enter;
-- *Preemption of scarce assets*: the first one can take all the scarce resources, such as key locations, government permits, patents, access to distribution channels, and relationships with suppliers;
-- *Exploiting buyer switching costs*: *switching costs* are the costs (money, time, effort) a customer faces to change from one product to another. If they are high, the firm that captures customers first may keep them even when a competitor introduces a better technology #ex[changing from an ADSL to a fiber contract];
-- *Reaping increasing returns advantages*: in an industry with increasing returns, a technology adopted early can grow its installed base through the self-reinforcing cycle described above, until it becomes the dominant design.
+- *Brand loyalty and technological leadership*: a lasting reputation as technology leader sustains brand loyalty and market share after comparable products arrive #ex[WhatsApp in messaging] and lets the firm shape customer expectations (features, pricing). If hard to imitate (patents, unique capabilities), it yields *monopoly rents*: extra returns (*higher revenues* or *lower costs*) from being a monopolist, e.g. high prices or bargaining power over suppliers;
+- *Preemption of scarce assets*: key locations, government permits, patents, distribution channels, supplier relationships;
+- *Exploiting buyer switching costs*: buyers who adopted a good face costs to switch (money spent on the good and its complements, plus learning time) #ex[changing from an ADSL to a fiber contract], so early-captured customers may stay even when a superior technology arrives;
+- *Reaping increasing returns advantages*: with *learning curve effects* and *network externalities*, an early technology may gain market power through positive feedback until it becomes the *dominant design*.
 
 == First-mover disadvantages
 
-- *Research and development expenses*: being first is not cheap. First movers bear most of the R&D costs, including the costs of technological paths that did not lead to a viable product and of complementary goods that are not on the market yet. Later entrants, instead, can observe how the market reacts and focus their R&D on what works;
-- *Undeveloped supply and distribution channels*: at the beginning, suitable suppliers and distribution channels often do not exist yet;
-- *Immature enabling technologies and complements*: the product may depend on other technologies or complementary products that are not yet fully developed;
-- *Uncertainty of customer requirements*: everything is still to be discovered, including which features customers want and at what price. On the other hand, first movers also have the opportunity to shape customer preferences.
+First movers earn *greater revenues* but face *higher costs*, so in the long run they may earn lower profits. A later entrant can capitalize on the first mover's R&D, fine-tune the product as the market becomes more certain, avoid the pioneer's mistakes, exploit *incumbent inertia* (incumbents' slowness to respond to change, due to size, established routines or prior commitments to suppliers and customers), and adopt *newer, more efficient production processes* while early movers are stuck with older ones. Specific disadvantages:
+
+- *Research and development expenses*: the first mover bears most R&D costs (failed paths, production processes, complements, suppliers, distribution, awareness), with very high failure rates; later entrants can *reverse engineer* the product and observe market response;
+- *Undeveloped supply and distribution channels*: the firm may have to develop its own, or help develop supplier and distributor markets;
+- *Immature enabling technologies and complements*: *enabling technologies* are component technologies necessary for the performance or desirability of an innovation, and may not be mature yet; missing complements also hinder adoption;
+- *Uncertainty of customer requirements*: desired features and willingness to pay are unknown and *market research may be of little help*, so early offerings often need revision: the *biggest disadvantage* for many first movers. *Customer education* can shape preferences but is expensive; if revenues are slow, the firm may collapse.
+
+== Factors influencing optimal timing of entry
+
+The choice depends on:
+
++ *How certain are customer preferences?* Some innovations answer well-understood needs, others not; *less customer uncertainty favors earlier entry*;
++ *How much improvement does the innovation provide over previous solutions?* A bigger margin is accepted faster and favors successful early entry;
++ *Does it require enabling technologies, and are they mature?* *More mature enabling technologies allow earlier entry*; immature ones may favor waiting;
++ *Do complementary goods influence its value, and are they available?* If new complements are needed but unavailable and the firm cannot develop them, *successful early entry is unlikely*;
++ *How high is the threat of competitive entry?* With high entry barriers or few capable competitors, the firm can *wait* for requirements, enabling technologies and complements to mature; with low barriers, it may need to *enter earlier* to build brand image, market share and supplier/distributor relationships;
++ *Is the industry likely to experience increasing returns to adoption?* Letting a competitor build an installed base first is risky: the firm may never catch up, or be *locked out* if patents block compatibility;
++ *Can the firm withstand early losses?* First movers need capital to survive slow early adoption (*s-curve*), which has killed many start-ups; resource-rich firms can also *catch up* as late entrants;
++ *Does the firm have resources to accelerate market acceptance?* Capital for market education, supplier/distributor development and complements gives some influence on the *shape of the adoption curve* and more discretion to enter early;
++ *Is the firm's reputation likely to reduce the uncertainty of customers, suppliers and distributors?* A strong track record signals quality and attracts partners, allowing earlier adoptions.
+
+#note(title: "Research brief: whether and when to enter? (Mitchell)")[
+Entry barriers and imitability interact: if only one firm can produce an inimitable good, it can enter whenever it wants; if several firms could produce a good that will then be inimitable, they *race* to enter; if the good is highly imitable, firms *wait* while others bear development costs. Incumbents were more likely to enter a new subfield if they had useful specialized assets (e.g. distribution) or their current products were threatened, and entered earlier if their core products were threatened and there were several potential rivals.
+]
 
 == Strategies to improve timing options
 
-A firm that wants to be able to enter early needs a *fast-cycle development process*. Development time can be reduced through strategic alliances, cross-functional teams, and parallel development processes (see @npd).
+Treating timing as a *choice* assumes the firm has (or can quickly develop) the *core capabilities* needed. A *fast-cycle development process* lets a firm enter early and then quickly introduce a refined version based on customer reactions, capturing *both first- and second-mover advantages* (being its own fast follower). Development time can be shortened through strategic alliances, cross-functional teams and *parallel development processes* (multiple stages of new product development occurring simultaneously; see @npd).
 
 = Defining the organization's strategic direction
 
-Before deciding how to innovate, a firm has to analyze its current position. The first step in formulating a technological innovation strategy is therefore to assess where the firm is now, and to define where it wants to go: its *strategic intent*, an ambitious long-term goal (typically 10–20 years) that goes beyond the firm's current resources and capabilities. A coherent strategic direction builds on the firm's existing competitive position and guides its future development.
+A technological innovation strategy starts by *assessing the firm's current position* and then *defining its strategic direction*, *leveraging and enhancing* its competitive position. The firm articulates an ambitious *strategic intent* that creates a *gap* between existing and required resources and capabilities; leveraging all resources around a unified vision gives an advantage that is hard to imitate. The chapter's tools identify threats and opportunities, strengths and weaknesses, sources of sustainable competitive advantage, core competencies, and the resources to develop or acquire; their outputs feed project selection (next chapter).
 
-To do this, the firm analyzes both its *external environment* (industry, competitors, stakeholders) and its *internal environment* (its own resources and capabilities).
+== Assessing the firm's current position
 
-== External analysis
+The position is assessed through an *external* and an *internal* analysis.
 
-The two most common tools for the external analysis are *Porter's five-force model* and *stakeholder analysis*.
+=== External analysis
 
-=== Porter's five-force model
+Main tools: *Porter's five-force model* and *stakeholder analysis*.
 
-The model assesses the *attractiveness of an industry* and identifies the *threats and opportunities* #ita("minacce e opportunità") it presents to the firm, looking at how external forces affect the firm compared to its competitors. The five main forces are:
+==== Porter's five-force model
 
-+ *Degree of existing rivalry*: how intense competition is among firms already in the industry. It is higher when there are many competitors of similar size, when products are poorly differentiated, when demand grows slowly or shrinks, and when *exit barriers* are high (firms stay in the market even when it is unprofitable, because leaving is costly);
-+ *Threat of potential entrants*: how easy it is for new companies to enter the market. It depends on how attractive the industry is and on the height of the *entry barriers* (e.g. high initial investments, economies of scale, strong brands, regulation);
-+ *Bargaining power of suppliers* #ita("potere di negoziazione dei fornitori"): how much suppliers can impose their conditions (prices, quality) on the firm. It is high when the firm relies on one or a few suppliers, when those suppliers sell to many other firms (so this firm matters little to them), when switching to another supplier is costly, and when the firm cannot *backward vertically integrate* (i.e. produce the inputs itself);
-+ *Bargaining power of buyers*: how much customers can impose their conditions on the firm. It is high when the firm relies on a few large customers, when products are poorly differentiated, when customers can switch easily, and when customers could themselves backward integrate (i.e. produce the product on their own);
-+ *Threat of substitutes* #ita("minaccia dei sostituti"): substitutes are products or services from _outside_ the industry that meet the same customer need #ex[trains vs. airplanes for a short trip]. They are not direct competitors, but they limit how much the firm can charge. What counts as a substitute depends on how the industry is defined.
+It identifies the *attractiveness of an industry* and the firm's *threats and opportunities* #ita("minacce e opportunità"). It can be used at two levels:
+- *Industry level* (original purpose): competitors are treated as roughly the same, to see whether the industry as a whole tends to be profitable;
+- *Firm level* (emphasized by the book): how the external forces affect a particular firm _differently_ from its competitors. A firm can outperform rivals even in an unattractive industry.
 
-A sixth force is often added:
+The five forces:
 
-- *Role of complements*: products or services that enhance the value of your product #ex[smartphones and apps, cars and gas stations]. Their impact depends on how important complements are in the industry, whether they are specific to one rival's product or work with all of them, and who captures the value they create.
++ *Degree of existing rivalry*, which depends on:
+  - _number and relative size of competitors_: more comparable-size competitors means more rivalry. *Oligopolistic industries* (a few large firms) can be fierce (price wars) or calm (avoiding head-to-head competition, tacit collusion);
+  - _differentiation_: differentiated competitors target different segments, so less rivalry and higher margins;
+  - _demand conditions_: growing demand eases rivalry, declining demand intensifies it;
+  - _exit barriers_: costs or commitments that make leaving hard (fixed assets, emotional commitment); they intensify rivalry in declining industries.
++ *Threat #ita("minaccia") of potential entrants*: depends on industry *attractiveness* (profitability, growth) and *entry barriers* (start-up costs, brand loyalty, access to suppliers/distributors, regulation, threat of retaliation). Partnerships (contract manufacturers, distributors) can lower start-up costs.
++ *Bargaining #ita("negoziazione") power of suppliers*, higher when:
+  - the firm relies on *few suppliers* or suppliers are *highly differentiated* (many undifferentiated suppliers can be made to bid against each other);
+  - the supplier's sales are a *large share of the firm's purchases* (if the firm is most of the supplier's sales, the supplier is weak);
+  - the firm faces *switching costs* (e.g. specialized assets);
+  - the supplier can *forward vertically integrate*; if the firm can *backward vertically integrate*, supplier power falls.
++ *Bargaining power of buyers*: analogous. Higher if the firm relies on few customers, the product is *undifferentiated*, the firm faces switching costs, buyers can *backward integrate*; lower if the product is differentiated, buyers face switching costs, the firm can *forward integrate*.
++ *Threat of substitutes*: products from outside the industry with a *strategically equivalent role* (same need). Greater with *more* substitutes, *closer function* and more attractive *relative price*. Competitor vs. substitute depends on *how the industry is defined*.
 
-=== Stakeholder analysis
+*Vertical integration*: entering the business of one's suppliers (_backward_) or buyers (_forward_).
 
-A *stakeholder* is anyone who affects or is affected by the firm: not only shareholders and customers, but also employees, suppliers, local communities, investors, government, etc. Stakeholder analysis aims at managing the relationships with all of them.
+Porter later added a *sixth force*, *complements*: products that enhance the usefulness of another #ex[smartphones and apps, cars and gas stations]. Consider:
++ how important complements are in the industry;
++ whether they are differentially available for rivals' products;
++ who captures the value they offer.
 
-Stakeholder models are used for both *strategic* purposes (identifying the stakeholder issues that are likely to impact the firm's financial performance) and *normative* purposes (helping the firm deal with the ethical and moral implications of its actions). The analysis has three steps:
+==== Stakeholder analysis
 
-+ *Identify*: map out all the parties affected by the firm's actions #ex[employees, customers, suppliers, local communities, investors];
-+ *Interests*: determine what each stakeholder group wants or cares about #ex[fair wages, product safety, environmental protection, returns];
-+ *Resources*: identify what resources or influence each group brings to the organization #ex[labor, capital, customer loyalty, regulatory approval].
+A *stakeholder* is anyone who affects or is affected by the firm: *stockholders, employees, customers, suppliers, lenders, local community, government, rivals*. Purposes:
+- *strategic*: issues likely to impact *financial performance*;
+- *normative*: issues the firm _ought_ to attend to for *ethical or moral* reasons.
 
-== Internal analysis
+Steps:
++ *Identify* all affected parties #ex[employees, customers, suppliers, local communities, investors];
++ their *interests* #ex[fair wages, product safety, environmental protection, returns];
++ the *resources* they contribute #ex[labor, capital, customer loyalty, regulatory approval];
++ the *claims* they are likely to make;
++ *which claims are most important* for the firm.
 
-The internal analysis looks at the firm's own competences and capabilities. It often begins by identifying the firm's strengths and weaknesses across the activities of the *value chain*:
+=== Internal analysis
 
-- _primary activities_: inbound logistics, operations, outbound logistics, marketing and sales, service;
-- _support activities_: firm infrastructure, human resources, technology development, procurement.
+It identifies *strengths and weaknesses*, often activity by activity along Porter's *value chain*:
 
-The firm then identifies which strengths can become a source of *sustainable competitive advantage*. For this, the resources must be *rare*, *valuable*, *durable* and *inimitable*. Resources are hard to imitate when they are:
+- *Primary activities*:
+  - _inbound logistics_: receiving, storing and disseminating inputs;
+  - _operations_: transforming inputs into outputs;
+  - _outbound logistics_: collecting, storing and distributing outputs;
+  - _marketing and sales_: informing buyers and inducing purchase;
+  - _service_: after-sales activities that keep the product working.
+- *Support activities*:
+  - _procurement_: acquiring inputs (not their physical transfer, which is inbound logistics);
+  - _human resource management_: recruiting, hiring, training, compensating;
+  - _technology development_: equipment, hardware, software, procedures and knowledge to transform inputs into outputs;
+  - _infrastructure_: accounting, legal, finance, planning, public affairs, government relations, quality assurance, general management.
 
-- *Tacit*: they cannot be codified in written form (e.g. know-how);
-- *Path dependent*: they come from a particular historical sequence of events, which competitors cannot replicate. The other side of this is rigidity: a firm too tied to what it has always done may struggle to react to change;
-- *Socially complex*: they arise from the complex interaction of multiple people (e.g. a team's culture);
-- *Causally ambiguous*: it is unclear, even to the firm, how the resource produces its advantage, so competitors do not know what to copy.
+The model is *generic and adaptable* (e.g. in biotech or software R&D is primary, inbound logistics negligible).
+
+==== Sustainable competitive advantage
+
+The firm then asks which strengths give a *sustainable competitive advantage* to leverage in its strategic intent.
+- *Rare and valuable* resources may yield a *competitive advantage*;
+- to be *sustainable* they must also be *durable* (e.g. a brand erodes without investment) and *inimitable* (technologies get reverse-engineered, practices copied).
+
+Resources are very hard to imitate when they are:
+- *Tacit*: intangible (e.g. knowledge), not readily codified;
+- *Path dependent*: based on a particular historical sequence of events (e.g. first-mover advantage);
+- *Socially complex*: arising from the interaction of many people;
+- *Causally ambiguous*: it is unclear how the resource gives rise to value.
+
+== Identifying core competencies and dynamic capabilities
+
+=== Core competencies
+
+*Core competencies* *differentiate the firm strategically*. More than a core technology, they come from *combining and harmonizing multiple primary abilities* into a few building blocks of expertise, often mixing:
+- managing the *market interface* (advertising, distribution);
+- *infrastructure* (information systems, logistics);
+- *technological* abilities (applied science, process design).
+
+This harmonization, plus good cross-functional relationships, makes them *hard to imitate*.
+
+*Prahalad and Hamel's metaphor*: core competencies are the *roots*, growing *core products* (major components), which give rise to *business units*, whose *fruits* are the *end products*.
+
+The link is *many-to-many* (one unit uses several competencies, one competency serves several units), so incentives must encourage *cooperation and resource exchange across business units*, or competencies are underinvested. Units should even *bid* for skilled people, seen as redeployable *corporate assets*.
+
+*Prahalad and Hamel's three tests*:
++ Is it a significant source of *competitive differentiation* (unique signature, customer-perceived value)?
++ Does it *transcend a single business* (current and new)?
++ Is it *hard to imitate* (complex harmonization built over years)?
+
+Few firms lead in more than *five or six* core competencies (a list of 20-30 misses the true ones). Seeing the business as a *portfolio of core competencies* focuses managers on value creation rather than cost cutting or opportunistic expansion.
+
+=== The risk of core rigidities
+
+Core competencies can become *core rigidities*, tying the firm to inappropriate skills:
+- *incentive systems* and *culture* reward activities and employees close to existing competencies, *inhibiting new ones*;
+- emphasis on one scientific discipline makes the firm *less attractive to other disciplines*;
+- rewards for core activities *discourage exploration*;
+- *path-dependent* knowledge accumulation makes it hard to assimilate unrelated knowledge.
+
+=== Dynamic capabilities
+
+In fast-changing markets a firm can develop competencies not tied to a technology or product but to *quickly reconfiguring its organizational structure and routines*: *dynamic capabilities*, which make it agile and able to adapt to emerging markets or major technological discontinuities.
+
+== Strategic intent
+
+A firm's purpose is to *create value* for customers, employees and shareholders (not just cut costs), guided by the strategic intent: a *long-term goal* (*10 to 20 years*) that:
+- is *ambitious*;
+- *builds upon and stretches existing core competencies*;
+- draws from *all levels* of the organization;
+- sets *clear milestones* for employees.
+
+Without it, firms develop products for *current* rather than *future* requirements. Successful innovators question price-performance assumptions and *lead customers*, molding market expectations.
+
+=== The resource and capability gap
+
+The firm identifies what it must *develop or acquire* to close the gap (including any *technological gap*) between current position and intent.
+
+#align(center)[
+  #table(
+    columns: 3,
+    stroke: 0.5pt + luma(180),
+    inset: 7pt,
+    align: left,
+    table.header([*Firm's current position*], [], [*Firm's desired future position*]),
+    [Resources and capabilities underlying the current position], [#sym.arrow.r *Resource and capability gap* #sym.arrow.r], [Resources and capabilities necessary for the future position],
+  )
+]
+
+=== The balanced scorecard
+
+*Kaplan and Norton*: how performance is measured shapes how objectives are pursued, so measures must go beyond financials. The *balanced scorecard* sets goals and measures from *four perspectives* (adapted to the business):
+
+#align(center)[
+  #table(
+    columns: 3,
+    stroke: 0.5pt + luma(180),
+    inset: 7pt,
+    align: left,
+    table.header([*Perspective*], [*Example goals*], [*Example measures*]),
+    [*Financial* (shareholders)], [meet shareholders' expectations, double corporate value], [return on capital, net cash flow, earnings growth],
+    [*Customer*], [loyalty, best-in-class service, satisfaction], [market share, % repeat purchases, satisfaction surveys],
+    [*Internal* business process], [fewer safety incidents, better inventory management], [incidents per month, stockout rates, inventory costs],
+    [*Innovation and learning*], [faster, better NPD; employee skills], [% of sales from products of the last 5 years, cycle length, training targets],
+  )
+]
+
+=== Blue ocean strategy
+
+*Kim and Mauborgne* describe firms that innovate to enter *untapped market space*.
+- *Red ocean*: firms compete on accepted dimensions for existing demand; crowding shrinks profits and growth;
+- *Blue ocean*: market space created by *redefining the dimensions of competition*, with few or no competitors (*differentiation through innovation*).
+
+#align(center)[
+  #table(
+    columns: 2,
+    stroke: 0.5pt + luma(180),
+    inset: 7pt,
+    align: left,
+    table.header([*Red ocean strategy*], [*Blue ocean strategy*]),
+    [Compete in existing market space], [Create uncontested market space],
+    [Beat the competition], [Make the competition irrelevant],
+    [Exploit existing demand], [Create and capture new demand],
+    [Make the value-cost trade-off], [Break the value-cost trade-off],
+    [Pursue differentiation _or_ low cost], [Pursue differentiation _and_ low cost],
+  )
+]
+
+Tool: the *strategy canvas* plots the *value curves* of offerings (factors of competition on the horizontal axis, their level on the vertical), then asks which factors to:
++ *eliminate* (taken for granted by the industry);
++ *reduce* well below the industry standard;
++ *raise* well above the industry standard;
++ *create* (never offered by the industry).
 
 = Choosing innovation projects
 
-Firms usually cannot fund all the innovation projects they would like to. Often they use *capital rationing*: they set a fixed R&D budget (frequently a percentage of the previous year's sales) and rank the possible projects to decide which ones get funded. The methods in this chapter are different ways of building this ranking.
+Development projects are expensive, slow and risky (most fail), so firms must choose carefully, using methods that range from informal to structured and from qualitative to quantitative.
+
+== The development budget
+
+Firms have limited resources and cannot fund every valuable project. Many use *capital rationing*: a fixed R&D budget (often a percentage of the previous year's sales), with projects *ranked* to decide which get funded.
+
+#note(title: "Capital rationing")[The allocation of a finite quantity of resources over different possible uses.]
+
+The budget may follow *industry benchmarks* or the firm's *historical benchmarks*. A common measure is *R&D intensity* (R&D spending relative to sales): it varies strongly across industries and between firms _within_ an industry; a firm with huge sales can spend the most in absolute terms and still have low intensity.
+
+Projects can be ranked with *quantitative methods* (discounted cash flows, real options), *qualitative methods* (screening questions, portfolio mapping), or both.
+
+=== Financing new technology ventures
+
+Large firms fund innovation internally; start-ups (unproven technology, business concept, sometimes management) face a much *higher cost of capital* and need *external financing*:
+
+- *Family, friends and credit cards*: in the earliest, riskiest stage (also local bank debt; credit cards at very high interest).
+- *Government grants and loans*: e.g. the US *Small Business Administration (SBA)*; similar programs exist in other countries.
+- *Angel investors*: wealthy private investors funding smaller projects, sometimes also mentoring. They lose on many deals but earn very high returns on the winners. They often provide *seed-stage* financing (before a real product or organized company).
+- *Venture capital* (larger deals):
+  - _independent VC firms_ invest a pool of funds in high-growth projects, often specializing by industry and preferring nearby firms. They use a *debt-equity hybrid contract* (equity-like if the firm does well, debt-like if not) and cash out via *IPO* or *buyout*. They reject most proposals; funded firms gain credibility with other investors and mentoring. They fund mostly *early stages* (company organized, early product success, not yet self-sustaining).
+  - _strategic investors / corporate venture capital_: a firm in a related industry invests for strategic interest (e.g. a minority stake to access cutting-edge technology), possibly also as collaborator, supplier or customer. Two structures:
+    - *internal venturing group*, tied to the firm's development operations: better use of its expertise and resources, but the entrepreneur may fear *expropriation*;
+    - *dedicated external fund*: reassures the entrepreneur, but limits access to the firm's nonfinancial resources.
 
 == Quantitative methods for choosing projects
 
-Quantitative methods convert each project into an estimate of its future cash returns, so that managers can compare projects with rigorous mathematical and statistical tools.
-
-Advantages:
-
-- they provide concrete financial estimates that support strategic planning and trade-off decisions;
-- they explicitly consider the timing of investments and cash flows, the time value of money, and risk.
-
-Disadvantages:
-
-- they give a *false sense of precision*: the result is a single, unambiguous-looking number, but it is only as reliable as the estimates behind it, and the future returns of a new technology are very hard to predict;
-- they discriminate heavily against long-term and risky projects (distant, uncertain cash flows are heavily discounted), and may fail to capture the strategic value of an investment (e.g. the knowledge or options it creates).
+They turn projects into estimates of future cash returns for rigorous comparison, but are only as good as those estimates, which are weak in uncertain environments.
 
 === Discounted cash flow methods
 
-These methods assess whether the expected future benefits of a project are large enough to justify its cost, given the risk. They account for the *time value of money*: €1 received in the future is worth less than €1 today, so future cash flows are _discounted_ at a rate $r$ (the discount rate, which grows with the project's risk).
+They check whether expected benefits justify the cost, considering risk and the *time value of money*: money received in the future is worth less than money today, so future cash flows are _discounted_. They need the *size and timing* of cash flows, and handle *risk* with a *higher discount rate* or *best-case/worst-case* ("what if") scenarios.
 
-- *Net present value (NPV)*: managers estimate the cost of the project and the cash flows it will yield, then compute:
-  $ "NPV" = "present value of cash inflows" - "present value of cash outflows" = sum_(t=1)^n "CF"_t / (1 + r)^t - C_0 $
-  where $C_0$ is the initial cost and $"CF"_t$ the cash flow in year $t$. If $"NPV" > 0$, the project creates value and should be considered; between projects, the one with the higher NPV is preferred.
-- *Internal rate of return (IRR)*: the discount rate at which the NPV of the project becomes exactly zero. In simple terms, it is the annual percentage return that the project yields on the money invested. If the IRR is higher than the firm's required rate of return (its cost of capital), the project is worth doing.
-- *Payback period*: how long it takes for the project's cash inflows to repay the initial investment. It is simple, but ignores everything that happens after that point.
-
-#example[
-  A project costs €100 today and returns €60 in each of the next 2 years. With $r = 10%$: $"NPV" = 60 / 1.1 + 60 / 1.1^2 - 100 = 54.5 + 49.6 - 100 = 4.1 > 0$, so the project creates value. Its IRR is about 13%: discounting at 13% makes the NPV zero, and since 13% > 10%, the conclusion is the same.
-]
+- *Net present value (NPV)*: _what is the project worth today?_ It is the present value of the cash inflows minus the present value of the cash outflows (outflows spread over several periods must be discounted too). If it is positive, the project creates wealth; between projects, the higher NPV is preferred.
+- *Internal rate of return (IRR)*: _what rate of return does the project yield?_ It is the discount rate at which the NPV becomes zero; the project is worth doing if the IRR exceeds the firm's required rate of return. It is found by trial and error, and with irregular cash flows there can be more than one IRR.
+- *Discounted payback period*: how long it takes for the _discounted_ cash inflows to repay the investment (the time to break even).
 
 === Real options
 
-The real options approach applies the logic of financial *call options* to R&D investments.
+Developing core technologies also builds *learning and capabilities* and creates future opportunities, so even apparently failed projects can be valuable. Cash flow analysis undervalues this; *real options* apply stock option valuation to investments in _nonfinancial_ assets.
 
-*What is a call option?* You pay a sum today (the _price_ or _premium_ of the option) to obtain the *right, but not the obligation*, to buy a stock in the future at a price fixed today (the *exercise price*).
+*Call option*: pay a premium today for the *right, but not the obligation*, to buy a stock later at a price fixed today (*exercise price*).
+- Stock above exercise price: exercise (profit if above exercise price + premium);
+- stock below exercise price: let it expire, losing only the premium;
+- stock above exercise price but not enough to cover the premium: still exercise, since the premium is a _sunk cost_ and exercising recovers part of it.
 
-- If, when the time comes, the stock is worth more than the exercise price, you exercise the option: you buy at the low fixed price something that is worth more;
-- if the stock is worth less than the exercise price, you simply do not exercise it: you lose only the premium you paid;
-- if the stock is worth more than the exercise price, but not enough to also cover the premium, you still exercise it: the premium is already spent (a _sunk cost_), and exercising recovers part of it, so you lose less than by letting the option expire.
+So the loss is limited to the premium, while the gain is open-ended: at expiration the option is worth nothing if the stock is below the exercise price, and worth the difference between stock price and exercise price if it is above.
 
-So the loss is limited to the premium, while the potential gain is open-ended. This is why options are worth more when there is more uncertainty.
-
-*Why R&D is like a call option.* Investing in basic R&D or in a breakthrough technology does not give the firm a product yet: it gives it the _possibility_ to invest further and commercialize the technology later, *if* the research proves valuable. If the results are poor, the firm simply stops, and loses only what it spent on R&D. The correspondence is:
+*R&D as a call option*: basic or breakthrough R&D gives no product, but buys the _possibility_ to invest further and commercialize *if* the technology proves valuable; otherwise the firm stops, losing only the R&D cost.
 
 #align(center)[
   #table(
@@ -364,103 +826,225 @@ So the loss is limited to the premium, while the potential gain is open-ended. T
     stroke: 0.5pt + luma(180),
     table.header([*Financial call option*], [*R&D project*]),
     [Price (premium) of the option], [Cost of the R&D program],
-    [Exercise price], [Cost of the future investment needed to exploit the R&D (e.g. production, commercialization)],
-    [Value of the stock bought], [Returns from the commercialized technology],
-    [Deciding whether to exercise], [Deciding whether to commercialize, once the R&D results are known],
+    [Exercise price], [Cost of the future investment to capitalize on the R&D (e.g. commercialization)],
+    [Value of the stock bought], [Returns to the R&D investment],
+    [Deciding whether to exercise], [Deciding whether to commercialize, once R&D results are known],
   )
 ]
 
 #example[
-  A pharmaceutical firm spends €10M on research for a new drug (the premium). If the research succeeds, launching the drug will cost another €100M (the exercise price). At the end of the research, the expected revenues of the drug are estimated:
-  - €300M: the firm launches it, because it gains more than the €100M it has to spend;
-  - €50M: the firm does not launch it, and loses only the €10M of research;
-  - €105M: the firm still launches it. The €10M of research is already gone in any case, and launching earns €5M more than it costs, so it reduces the total loss.
+  A pharmaceutical firm pays for research on a new drug (the premium). If the research succeeds, launching the drug requires a much larger investment (the exercise price). At the end of the research:
+  - expected revenues well above the launch cost: it launches;
+  - expected revenues below the launch cost: it does not launch, and loses only the research cost;
+  - expected revenues above the launch cost, but not enough to also repay the research: it still launches, because the research money is spent anyway and launching reduces the total loss.
 ]
 
-Advantages and disadvantages:
+*Advantages*: options are valuable under uncertainty (as in technology trajectories); they capture *long-run strategic implications* (capabilities, future options); some limited evidence of better investment decisions than cash flow analysis.
 
-- options are valuable when there is uncertainty, and technology trajectories are very uncertain, so the approach fits R&D well;
-- it values the _flexibility_ that R&D creates, which NPV ignores, and can lead to better investment decisions (especially for early-stage, risky projects);
-- however, R&D projects are not traded like stocks: there is no market price, their risk is hard to estimate, and the "option" may not be exclusive (competitors can develop the same technology). Technology investments may therefore not satisfy the assumptions on which option pricing is based.
+*Disadvantages*: technology investments often violate the capital market assumptions of option valuation:
++ it assumes one can *acquire or retain the option for a small price and wait for a signal* before exercising: plausible for an outside VC investor, rarely for a firm developing its *own* technology, which may need to invest fully before knowing the outcome;
++ a stock's value is *independent of the holder's behavior*, while R&D value depends on the firm's *degree of investment, development capabilities, complementary assets and strategies*: the investor drives the value.
+
+=== Disadvantages of quantitative methods
+
+They give concrete estimates and explicitly consider timing, time value of money and risk, but:
+- returns *look unambiguous but are not reliable*: forecasts for truly innovative products (markets that do not yet exist) are nearly impossible;
+- they *discriminate heavily against long-term or risky projects*;
+- they may miss the *strategic importance* of building capabilities and future options.
 
 == Qualitative methods for choosing projects
 
+Many factors are hard (or misleading) to quantify, so almost all firms use some qualitative assessment.
+
 === Screening questions
 
-A list of questions, organized into categories (e.g. role of the customer, role of the firm's capabilities, timing and cost of the project), used to discuss the potential costs and benefits of each project. The answers are then used for a debate or to build a scoring system. These questions do not always give concrete answers, but they make the firm consider a wider range of issues that may matter in its development decisions.
+Management discusses each project's costs and benefits through categorized questions:
+
+- *Role of the customer*:
+  - _market_: likely customers, market size, marketing needed;
+  - _use_: how it will be used, new benefits, substitutes;
+  - _compatibility and ease of use_: fit with existing complements, learning required, perceived ease of use, other customer costs;
+  - _distribution and pricing_: where it is bought, installation/assembly needs, willingness to pay.
+- *Role of capabilities*:
+  - _existing_: leverages core competencies? makes competencies obsolete or cannibalizes products (transition strategy)? manufacturing capabilities available (in-house or outsourced)? new skills needed?
+  - _competitors'_: better capabilities? will they develop it anyway? can the firm protect its IP? collaborate with a competitor?
+  - _future_: builds capabilities for the strategic intent? enables other products/markets? platform for a product family?
+- *Project timing and cost*:
+  - _timing_: duration, first to market (is pioneering desirable?), market readiness (enabling/complementary technologies, customer perception), impact of missed deadlines, suppliers and distribution in place;
+  - _cost factors_: project cost and variability, manufacturing costs and their decline with experience, other adoption costs (complements, installation, support).
+
+Answers can structure a *debate* or a *scoring mechanism* (scaled answers weighted by importance). They widen the issues considered and reveal hard-to-quantify value (e.g. preserving development capabilities).
 
 === The R&D portfolio
 
-The firm maps all its projects according to how much change they involve (in products and processes), which also determines how soon they generate cash flows. Managers can use this map to compare the balance of projects they _want_ with the one they actually _have_. There are four types of development projects, from the most advanced to the most basic:
+Firms map projects by *degree of change* and *timing of cash flows* (years to payoff) to compare *desired* vs *actual* balance, find *capacity constraints* and *gaps*, and allocate resources. Projects are categorized by resources needed (engineers, time, capital) and contribution to the product line; maps can be made per business area. Four types, from most advanced to most basic:
 
-+ *Advanced R&D*: research to develop cutting-edge strategic technologies, a precursor to future commercial projects;
-+ *Breakthrough*: development of products that incorporate revolutionary new product and process technologies;
-+ *Platform*: fundamental improvements in the cost, quality and performance of a technology over previous generations, on which a family of products can be built;
-+ *Derivative*: incremental changes to existing products and/or processes.
++ *Advanced R&D*: precursor to commercial projects, for cutting-edge strategic technologies;
++ *Breakthrough*: products with revolutionary new product and process technologies;
++ *Platform*: fundamental improvements in cost, quality and performance over previous generations, for a *core group of consumers*;
++ *Derivative*: incremental changes; *modifications of the platform design* for niches within that group.
 
-The higher in the list, the more radical, risky and long-term the project; the lower, the more incremental and the quicker the cash flow. Categorizing projects in this way, by the resources they require and by how they contribute to the product line, encourages the firm to balance short-term cash flow needs (derivative projects) with long-term strategic momentum (advanced and breakthrough projects).
+Technologies may *migrate* through these types; higher types are more radical and long-term, lower ones quicker to pay off. The mix should fit resources, position and *strategic intent*: a typical firm puts most resources in derivative projects, fewer in platform and few in breakthrough ones, shifting towards the more radical types for growth or towards derivatives for short-term profit.
+
+The map balances *short-term cash flow* and *long-term strategic momentum*: mostly derivative projects give short-run returns but leave the firm behind when technology shifts; mostly advanced R&D and breakthrough projects keep it at the leading edge but can cause cash flow problems.
 
 === Q-sort
 
-A simple method for ranking projects (or ideas) on several criteria. Each member of a group gets a set of cards, each describing a project, and sorts them in rank order (or in categories) according to a given criterion (e.g. technical feasibility, market impact, fit with strategic intent). The members then compare their rankings and use the differences to structure a debate. After several rounds, the group is expected to reach a consensus on the best projects. It is mostly used as a format for discussion.
+A simple ranking method used mainly as a *format for discussion and debate*: each member sorts project cards by rank or category (e.g. feasible vs. infeasible) for each criterion (e.g. technical feasibility, market impact, fit with strategic intent); ranking differences structure a debate, repeated until consensus on the best projects.
 
 == Combining quantitative and qualitative information
 
-Many firms combine several quantitative and qualitative methods to reach an investment decision, since each has its own strengths and weaknesses.
+Many firms combine methods (e.g. screening questions needing quantitative analysis, cash flow estimates in the portfolio map). Conjoint analysis and DEA *translate qualitative assessments into quantitative measures*.
 
 === Conjoint analysis
 
-A family of techniques used to estimate how much value people attach to each attribute of a choice. Instead of asking directly "how important is X?", people evaluate complete alternatives (e.g. projects or products described by several attributes), and from their choices the method derives the weight of each attribute. In this way, a complex and subjective decision is decomposed into quantitative scores of the relative importance of the different criteria.
+A family of techniques (discrete choice, choice modeling, hierarchical choice, trade-off matrices, pairwise comparisons) that *statistically* estimate the *weight individuals put on each attribute of a choice*, which people struggle to state directly. Most common use: how *customers* value product attributes, for development and pricing. Customers rate or rank product configurations; a *multiple regression* on attribute levels gives each attribute's weight (implicit trade-offs), usable in *"what if" scenarios*.
 
 === Data envelopment analysis (DEA)
 
-A method for ranking projects using multiple criteria that are measured in different units (e.g. NPV in euros, strategic fit on a 1–5 scale, risk in percentage). The best projects define an _efficiency frontier_, and each project is evaluated by how close it is to that frontier.
+Ranks projects on *multiple criteria in different units* (e.g. cash flows in euros, rank orders of competency fit, scaled feasibility scores) against a *hypothetical efficiency frontier*:
+- *linear programming* builds a frontier of the *best performance on each measure* (hypothetical configurations optimizing a combination of features);
+- it can distinguish *inputs* (costs) from *outputs* (benefits);
+- each project's distance from the frontier gives an *efficiency value*, used to rank projects or spot dominant ones.
+
+Advantage: combines *multiple kinds of measures*. Limit: *only as good as the data*; managers must choose accurate measures.
 
 = Collaboration strategies
 
-By collaborating, firms can achieve more, faster, and with lower cost or risk than they could alone. However, collaboration is not always the best choice.
+Collaboration lets firms achieve more, faster, and with less cost or risk than alone, but it means *giving up some control* and *some share of the rewards*, and it exposes the firm to *malfeasance by its partner(s)*.
 
 == Reasons for going solo
 
-- *Availability of capabilities*: if the firm already has all the necessary capabilities, it may not need a partner;
-- *Protecting proprietary technologies*: working closely with a partner might expose the firm's proprietary technology;
-- *Controlling technology development and use*: the firm may want full control over the development process and over the use of the resulting technology;
-- *Building and renewing capabilities*: developing a technology in-house is a way to build new skills, resources and market knowledge, which would be lost by relying on a partner.
+- *Availability of capabilities*: the firm already has all needed capabilities, or no appropriate or willing partner exists;
+- *Protecting proprietary technologies*: a partner might gain access to them, and the firm may want exclusive control over technology created in the project;
+- *Controlling technology development and use*, for _pragmatic_ reasons (high margins it does not want to share) or _cultural_ ones (independence, self-reliance);
+- *Building and renewing capabilities*: solo development builds new skills and market knowledge, which may be worth more than the innovation itself.
 
 == Advantages of collaborating
 
-- *Acquiring capabilities and resources quickly*;
-- *Increasing flexibility*: collaboration requires less capital than doing everything in-house, which keeps the firm flexible;
-- *Learning from partners*: collaboration facilitates the transfer of knowledge between firms and the creation of new knowledge that neither firm could have created alone;
-- *Resource and risk pooling*: costs and risks are shared;
-- *Building a coalition around a shared standard*: partners can join forces to make their technology the dominant design.
+- *Acquiring capabilities and resources quickly*: alliances or licensing give rapid access to missing complementary assets;
+- *Increasing flexibility*: less asset commitment, important under rapid technological change (assets may quickly become obsolete); firms can specialize and link with other specialists;
+- *Learning from partners*: both *transfer of knowledge* and *creation of new knowledge* neither could create alone;
+- *Resource and risk pooling*, especially for very expensive or uncertain projects;
+- *Building a coalition around a shared standard*.
 
 == Types of collaborative arrangements
 
-The right type of collaboration depends on the goal the firm wants to achieve:
+Partners can be suppliers, customers, competitors, complementors, nonprofits, governments or universities; forms range from informal alliances to structured joint ventures.
 
-- *Strategic alliances*: agreements (formal or informal) between firms to combine complementary capabilities or transfer specific skills, aimed at joint innovation and new market opportunities. A firm can have individual alliances or a network of alliances, and the choice depends on its objectives;
-- *Joint ventures*: a particular kind of alliance in which the partners invest equity to create a separate legal entity, sharing its resources, risks and rewards. They require good governance to manage conflicts between the partners;
-- *Licensing*: the _licensor_ grants another firm (the _licensee_) the right to use its intellectual property (e.g. a patent or a technology) in exchange for a fee or royalties. It gives the licensee quick access to external technology, and gives the licensor revenue and wider diffusion of its technology. It requires a clear contract and good communication between the parties;
-- *Outsourcing*: procuring goods or services from an external provider instead of producing them in-house. It brings efficiency and cost savings, but must be managed carefully to avoid overreliance on the provider and losing the firm's core competencies. It works when partners are reliable and the firm stays focused on its core activities;
-- *Collective research organizations*: organizations through which many firms (often from the same industry) jointly fund and carry out research of common interest. They succeed only with open communication, shared goals, and effective management and pooling of resources.
+=== Strategic alliances
+
+An *alliance* is any relationship between firms. A *strategic alliance* is a flexible, *temporary* relationship, *formal* or *informal*, *short-* or *long-term*, possibly with *equity investment* in each other (_equity alliances_). Firms use alliances to:
+- *access a critical capability* not possessed in-house;
+- *more fully exploit their own capabilities* in another firm's development efforts;
+- *pool resources* (different capabilities) to develop a product or market faster or more cheaply;
+- *share risk* or speed up market development (even with similar capabilities).
+
+- *Large vs small firms*: large firms take a limited stake in small firms' development; small firms tap large firms' capital, distribution, marketing or credibility.
+- *Flexibility*: a limited stake with the option to increase commitment later; an *early window on emerging opportunities*.
+- *Learning*: alliances often *lack the shared language, routines and coordination* to transfer complex, tacit knowledge (the most valuable for sustainable advantage); learning requires real resources (dedicated people moving between firms, test-bed facilities, procedures for internalizing knowledge).
+- *Costs*: *monitoring and coordination*, and the risk that partners appropriate the firm's intellectual property.
+
+==== Doz and Hamel: technology alliance strategies
+
+Two dimensions: *capability complementation* (pooling capabilities without transferring them) vs *capability transfer* (partners internalize each other's capabilities to use them independently); *individual alliance* vs *network of alliances* (managed collectively).
+
+#align(center)[
+  #table(
+    columns: 3,
+    stroke: 0.5pt + luma(180), inset: 7pt, align: left,
+    table.header([], [*Individual alliance*], [*Network of alliances*]),
+    [*Capability complementation*], [*A*: one alliance combining complementary skills for a project], [*B*: a web of alliances combining complementary skills and resources],
+    [*Capability transfer*], [*C*: one alliance to transfer capabilities between partners], [*D*: a network to exchange and jointly develop capabilities (e.g. collective research organizations with a governing body)],
+  )
+]
+
+==== Alliance portfolios
+
+- *Competitive effects*: multiple alliances serving the same need risk redundant investment or conflict between partners;
+- *Complementing effects*: complementary alliances can be *super-additive* if well managed;
+- *Network structure effects*: the portfolio positions the firm in the web of partners and partners' partners, affecting the diffusion of information and resources.
+
+==== Risks of alliances
+
+- Limited commitment invites *opportunism and self-interest*; many alliances fail to meet their goals.
+- The firm must avoid *giving too much away* to a potential competitor: for Doz and Hamel, *too much collegiality* may mean gatekeepers are not vigilant; employees should know what is off-limits, and the firm should monitor what the partner requests and receives.
+
+#note(title: "Research Brief: strategic positions in collaborative networks")[
+  - *Centrality* (_degree centrality_ = number of links): faster access to more information; related to size and prominence.
+  - *Brokerage* (_betweenness centrality_: how often a firm lies on the shortest path between others): bridging disconnected groups gives diverse information and gatekeeping; brokers need not be large.
+  - Position can *signal* resource value (a young firm allied with prominent firms gains endorsement, financing, further alliances).
+  - Relative benefits are debated (central firms may be constrained by ties; brokers may struggle to assimilate diverse information), but being *isolated* or in a *"pendulum" position* (one link) is undesirable.
+]
+
+=== Joint ventures
+
+A highly structured alliance with *significant equity investment* by each partner, often creating a *new separate business entity*; contributions and *division of profits* are set by detailed contracts.
+
+=== Licensing
+
+The *licensee* obtains the rights to use the *licensor*'s proprietary technology (or trademark, copyright, etc.).
+- *For the licensee*: *rapid* and *much cheaper* acquisition of a *technically or commercially proven* technology; it gives little advantage by itself but can be a foundation for hard-to-imitate expertise ("Open Innovation").
+- *For the licensor*: reach a *wider range of markets* and earn revenue; restrictions keep control, but it *may erode* as the licensee learns and develops its own technologies.
+- *Licensing out to preempt competitors*: when rivals could imitate or the industry tends toward a *dominant design*; the licensor gives up *monopoly rents* for a *steady stream of royalties* instead of gambling on market dominance.
+
+=== Outsourcing
+
+Firms lacking competencies, facilities or scale outsource value-chain activities (also design, marketing, IT, distribution). The common form is *contract manufacturing*, which gives *flexibility* (no long-term capital investment), lets the firm specialize in its core activities, and taps the manufacturer's *economies of scale* and *faster response time*.
+
+*Downsides*: the firm may *forfeit learning opportunities* and *become hollow* (contractors may build competencies with clients' money); *transaction costs*: contracts must be well specified, proprietary technology protected from *expropriation*, and the contractor protects itself from being *held up* after contract-specific investments.
+
+=== Collective research organizations
+
+Cooperative R&D organizations formed by multiple organizations: *trade associations*, *university-based centers* or *private research corporations*, created by government, industry associations or private firms (e.g. to share costly research).
+
+== Choosing a mode of collaboration
+
+#align(center)[
+  #table(
+    columns: 7,
+    stroke: 0.5pt + luma(180), inset: 7pt, align: left,
+    table.header([*Mode*], [*Speed*], [*Cost*], [*Control*], [*Leverage existing competencies*], [*Develop new competencies*], [*Access other firms' competencies*]),
+    [Solo internal development], [Low], [High], [High], [Yes], [Yes], [No],
+    [Strategic alliances], [Varies], [Varies], [Low], [Yes], [Yes], [Sometimes],
+    [Joint ventures], [Low], [Shared], [Shared], [Yes], [Yes], [Yes],
+    [Licensing in], [High], [Medium], [Low], [Sometimes], [Sometimes], [Sometimes],
+    [Licensing out], [High], [Low], [Medium], [Yes], [No], [Sometimes],
+    [Outsourcing], [Medium/High], [Medium], [Medium], [Sometimes], [No], [Yes],
+    [Collective research organizations], [Low], [Varies], [Varies], [Yes], [Yes], [Yes],
+  )
+]
+
+- *Solo internal development*: slow, costly, full control; suits firms with *strong related competencies, access to capital and no time pressure*.
+- *Strategic alliances*: accessing a partner's technology is quick and cheap but low control; deploying own technology in more markets keeps control.
+- *Joint ventures*: almost as slow as solo; long-term, so great potential to leverage, develop and access competencies; best when *access to other firms' competencies* is very important.
+- *Licensing in*: fast, cheap, low control; for *enabling technologies* not central to competitive advantage, or for *initial market entry and experience* on which to build own capabilities.
+- *Licensing out*: fast, nearly free reach plus royalties, moderate control; leverages but does not develop competencies.
+- *Outsourcing*: gives up moderate control for rapid access to expertise or lower costs; suits activities (a) *not central* to competitive advantage, (b) that would cost *crucial flexibility* in-house, or (c) where the firm has a *cost or quality disadvantage*.
+- *Collective research organizations*: a *long-term commitment*, not rapid access; useful in industries with *complex technologies requiring heavy investment in basic science*, sharing its cost and risk.
 
 == Choosing and monitoring partners
 
-Gaining access to another firm's skills or resources through collaboration is not without risk: the partner must be chosen and managed carefully.
+Risks: it is hard to judge partner fit (especially for experience or knowledge); the partner may *exploit the relationship* and expropriate knowledge; managers can monitor few collaborations, giving *diminishing* and even *negative returns* to their number. Remedies: *limit the number of collaborations*, *choose partners carefully*, and set up *monitoring and governance mechanisms*.
 
 === Partner selection
 
-Two dimensions determine how well suited partners are to each other:
+Factors (size, complementarity, objectives, values and culture) reduce to two dimensions:
+- *Resource fit*: how well the partners' resources integrate into a value-creating strategy; resources can be _complementary_ (ones the firm lacks; the basis of most collaborations) or _supplementary_ (similar resources pooled for market power or economies of scale);
+- *Strategic fit*: *compatible objectives and styles*; objectives need *not be the same* if they don't harm the alliance; unknown or incompatible objectives cause conflict and waste.
 
-- *Resource fit*: the degree to which the partners' resources can be combined into a strategy that creates value. Resources can be _complementary_ (different resources that complete each other) or _supplementary_ (similar resources pooled together to gain scale);
-- *Strategic fit*: the degree to which the partners have compatible objectives and styles.
+Partners can also be assessed by how the collaboration affects:
+- *External opportunities and threats*: buyer and supplier power, threat of entry (could the partner become a competitor?), rivalry, complements and substitutes;
+- *Internal strengths and weaknesses*: leveraging or risking strengths, overcoming weaknesses, hard-to-imitate advantage, core capabilities, financial strength;
+- *Strategic direction*: fit with strategic intent, closing resource or technology gaps, how the collaboration's objectives may change over time.
 
 === Partner monitoring and governance
 
-- *Alliance contracts*: legally binding agreements that make clear the rights and obligations of each partner, and give legal remedies if a partner breaches the agreement;
-- *Equity ownership*: each partner contributes capital and owns a share of the alliance, which aligns their incentives;
-- *Relational governance*: self-enforcing governance based on goodwill, trust and reputation, built up over time. It reduces monitoring costs and facilitates more extensive cooperation, sharing and learning.
+*Governance* is the act or process of exerting authority and/or control. Successful collaborations have *clear, yet flexible* mechanisms; the *more resources at risk*, the *more governance structure*. Three mechanisms:
+
+- *Alliance contracts*: legally binding rights, obligations and remedies; they specify each partner's *contribution*, *control* (new partners, terms, rights over outputs) and *distribution of proceeds*, plus monitoring (reports, audits), *termination* provisions and a *graceful exit*.
+- *Equity ownership*: partners own a share of proceeds, which *aligns incentives* and creates *ownership and commitment*;
+- *Relational governance*: self-enforcing, based on *goodwill, trust and reputation* built through repeated collaboration; reduces contracting and monitoring costs and fosters cooperation and learning.
 
 = Protecting innovation
 
