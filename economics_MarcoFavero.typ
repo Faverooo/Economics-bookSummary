@@ -911,336 +911,451 @@ Advantage: combines *multiple kinds of measures*. Limit: *only as good as the da
 
 = Collaboration strategies
 
-Collaboration lets firms achieve more, faster, and with less cost or risk than alone, but it means *giving up some control* and *some share of the rewards*, and it exposes the firm to *malfeasance by its partner(s)*.
+Collaboration lets firms achieve more, faster, and with less cost or risk than alone, but it means *giving up some control* and *some share of the rewards*, and it exposes the firm to *opportunism by its partner(s)*.
 
 == Reasons for going solo
 
-- *Availability of capabilities*: the firm already has all needed capabilities, or no appropriate or willing partner exists;
-- *Protecting proprietary technologies*: a partner might gain access to them, and the firm may want exclusive control over technology created in the project;
-- *Controlling technology development and use*, for _pragmatic_ reasons (high margins it does not want to share) or _cultural_ ones (independence, self-reliance);
-- *Building and renewing capabilities*: solo development builds new skills and market knowledge, which may be worth more than the innovation itself.
+- *Availability of capabilities*: the firm already has all needed capabilities, or no appropriate partner exists;
+- *Protecting proprietary technologies*: a partner might expropriate them, and the firm may want exclusive control over what the project creates;
+- *Controlling technology development and use*, for _pragmatic_ reasons (margins it does not want to share) or _cultural_ ones (independence, self-reliance);
+- *Building and renewing capabilities*: solo development builds skills and market knowledge, which may be worth more than the innovation itself.
 
 == Advantages of collaborating
 
-- *Acquiring capabilities and resources quickly*: alliances or licensing give rapid access to missing complementary assets;
-- *Increasing flexibility*: less asset commitment, important under rapid technological change (assets may quickly become obsolete); firms can specialize and link with other specialists;
-- *Learning from partners*: both *transfer of knowledge* and *creation of new knowledge* neither could create alone;
-- *Resource and risk pooling*, especially for very expensive or uncertain projects;
+- *Acquiring capabilities and resources quickly*, especially missing complementary assets;
+- *Increasing flexibility*: less asset commitment, important under rapid technological change; firms can specialize and link with other specialists;
+- *Learning from partners*: *transfer of knowledge* and *joint creation of new knowledge*;
+- *Resource and risk pooling* for expensive or uncertain projects;
 - *Building a coalition around a shared standard*.
 
 == Types of collaborative arrangements
 
-Partners can be suppliers, customers, competitors, complementors, nonprofits, governments or universities; forms range from informal alliances to structured joint ventures.
+Partners can be suppliers, customers, competitors, complementors, nonprofits, governments or universities.
 
 === Strategic alliances
 
-An *alliance* is any relationship between firms. A *strategic alliance* is a flexible, *temporary* relationship, *formal* or *informal*, *short-* or *long-term*, possibly with *equity investment* in each other (_equity alliances_). Firms use alliances to:
-- *access a critical capability* not possessed in-house;
-- *more fully exploit their own capabilities* in another firm's development efforts;
-- *pool resources* (different capabilities) to develop a product or market faster or more cheaply;
-- *share risk* or speed up market development (even with similar capabilities).
+A *strategic alliance* is a flexible relationship between firms, *formal* or *informal*, *short-* or *long-term*, possibly with *equity investment* (_equity alliances_). It can be used to *access a capability* the firm lacks, *exploit its own capabilities* in another firm's efforts, *pool resources*, or *share risk*.
 
-- *Large vs small firms*: large firms take a limited stake in small firms' development; small firms tap large firms' capital, distribution, marketing or credibility.
-- *Flexibility*: a limited stake with the option to increase commitment later; an *early window on emerging opportunities*.
-- *Learning*: alliances often *lack the shared language, routines and coordination* to transfer complex, tacit knowledge (the most valuable for sustainable advantage); learning requires real resources (dedicated people moving between firms, test-bed facilities, procedures for internalizing knowledge).
-- *Costs*: *monitoring and coordination*, and the risk that partners appropriate the firm's intellectual property.
+- *Pros*: small firms tap large firms' capital, distribution or credibility, large firms get an *early window on emerging opportunities* with a limited stake that can grow later.
+- *Cons*: alliances often lack the shared routines needed to transfer *tacit knowledge*, so learning requires real investment; there are *monitoring and coordination costs*; limited commitment invites *opportunism*, and the firm must avoid *giving too much away* to a potential competitor (for Doz and Hamel, *too much collegiality* is a danger: employees should know what is off-limits).
 
-==== Doz and Hamel: technology alliance strategies
+*Doz and Hamel* classify technology alliances on two dimensions:
+- *Capability complementation* (pooling capabilities without transferring them) vs *capability transfer* (partners internalize each other's capabilities);
+- *Individual alliance* vs *network of alliances* managed collectively.
 
-Two dimensions: *capability complementation* (pooling capabilities without transferring them) vs *capability transfer* (partners internalize each other's capabilities to use them independently); *individual alliance* vs *network of alliances* (managed collectively).
+Crossing them gives four strategies: one alliance combining complementary skills; a web of alliances combining them; one alliance transferring capabilities; a network jointly exchanging and developing capabilities. Transfer requires much more coordination and cooperation than complementation.
 
-#align(center)[
-  #table(
-    columns: 3,
-    stroke: 0.5pt + luma(180), inset: 7pt, align: left,
-    table.header([], [*Individual alliance*], [*Network of alliances*]),
-    [*Capability complementation*], [*A*: one alliance combining complementary skills for a project], [*B*: a web of alliances combining complementary skills and resources],
-    [*Capability transfer*], [*C*: one alliance to transfer capabilities between partners], [*D*: a network to exchange and jointly develop capabilities (e.g. collective research organizations with a governing body)],
-  )
-]
-
-==== Alliance portfolios
-
-- *Competitive effects*: multiple alliances serving the same need risk redundant investment or conflict between partners;
-- *Complementing effects*: complementary alliances can be *super-additive* if well managed;
-- *Network structure effects*: the portfolio positions the firm in the web of partners and partners' partners, affecting the diffusion of information and resources.
-
-==== Risks of alliances
-
-- Limited commitment invites *opportunism and self-interest*; many alliances fail to meet their goals.
-- The firm must avoid *giving too much away* to a potential competitor: for Doz and Hamel, *too much collegiality* may mean gatekeepers are not vigilant; employees should know what is off-limits, and the firm should monitor what the partner requests and receives.
-
-#note(title: "Research Brief: strategic positions in collaborative networks")[
-  - *Centrality* (_degree centrality_ = number of links): faster access to more information; related to size and prominence.
-  - *Brokerage* (_betweenness centrality_: how often a firm lies on the shortest path between others): bridging disconnected groups gives diverse information and gatekeeping; brokers need not be large.
-  - Position can *signal* resource value (a young firm allied with prominent firms gains endorsement, financing, further alliances).
-  - Relative benefits are debated (central firms may be constrained by ties; brokers may struggle to assimilate diverse information), but being *isolated* or in a *"pendulum" position* (one link) is undesirable.
-]
+An *alliance portfolio* has *competitive effects* (redundant alliances conflict), *complementing effects* (well-managed alliances can be super-additive) and *network effects*: a firm's position affects access to information. *Central* firms (many links) and *brokers* (bridging otherwise disconnected groups) gain information advantages; *isolated* positions are undesirable.
 
 === Joint ventures
 
-A highly structured alliance with *significant equity investment* by each partner, often creating a *new separate business entity*; contributions and *division of profits* are set by detailed contracts.
+A highly structured alliance with *significant equity investment* by each partner, often creating a *new separate entity*; contributions and *division of profits* are set by detailed contracts. Used to *share costs and risks*, with great potential for pooling or transferring capabilities.
 
 === Licensing
 
-The *licensee* obtains the rights to use the *licensor*'s proprietary technology (or trademark, copyright, etc.).
-- *For the licensee*: *rapid* and *much cheaper* acquisition of a *technically or commercially proven* technology; it gives little advantage by itself but can be a foundation for hard-to-imitate expertise ("Open Innovation").
-- *For the licensor*: reach a *wider range of markets* and earn revenue; restrictions keep control, but it *may erode* as the licensee learns and develops its own technologies.
-- *Licensing out to preempt competitors*: when rivals could imitate or the industry tends toward a *dominant design*; the licensor gives up *monopoly rents* for a *steady stream of royalties* instead of gambling on market dominance.
+The *licensee* buys the rights to use the *licensor*'s proprietary technology (or trademark, copyright).
+- *Licensee*: *fast*, *cheap* access to a *proven* technology; little advantage by itself, but can be a foundation for own expertise.
+- *Licensor*: reaches *more markets* and earns royalties, but *control may erode* as the licensee learns. *Licensing out* can also *preempt competitors* when imitation is easy or a *dominant design* is emerging, trading monopoly rents for a *steady royalty stream*.
+- Both: little opportunity to *develop new capabilities*.
 
 === Outsourcing
 
-Firms lacking competencies, facilities or scale outsource value-chain activities (also design, marketing, IT, distribution). The common form is *contract manufacturing*, which gives *flexibility* (no long-term capital investment), lets the firm specialize in its core activities, and taps the manufacturer's *economies of scale* and *faster response time*.
-
-*Downsides*: the firm may *forfeit learning opportunities* and *become hollow* (contractors may build competencies with clients' money); *transaction costs*: contracts must be well specified, proprietary technology protected from *expropriation*, and the contractor protects itself from being *held up* after contract-specific investments.
+Firms outsource value-chain activities (most commonly *contract manufacturing*) to gain *flexibility* (no fixed asset commitment), focus on *core competencies*, and tap the contractor's *scale* and *speed*.
+*Downsides*: the firm *forfeits learning* and may *become hollow*; *transaction costs* arise from specifying contracts, protecting technology from *expropriation*, and the contractor's fear of being *held up* after specific investments.
 
 === Collective research organizations
 
-Cooperative R&D organizations formed by multiple organizations: *trade associations*, *university-based centers* or *private research corporations*, created by government, industry associations or private firms (e.g. to share costly research).
+Cooperative R&D organizations (*trade associations*, *university-based centers*, *private research corporations*) through which multiple organizations jointly pursue *large or risky advanced research*.
 
 == Choosing a mode of collaboration
+
+Each mode offers different trade-offs on *speed*, *cost*, *control*, and potential for *leveraging existing competencies*, *developing new competencies* and *accessing other firms' competencies*:
 
 #align(center)[
   #table(
     columns: 7,
-    stroke: 0.5pt + luma(180), inset: 7pt, align: left,
-    table.header([*Mode*], [*Speed*], [*Cost*], [*Control*], [*Leverage existing competencies*], [*Develop new competencies*], [*Access other firms' competencies*]),
-    [Solo internal development], [Low], [High], [High], [Yes], [Yes], [No],
-    [Strategic alliances], [Varies], [Varies], [Low], [Yes], [Yes], [Sometimes],
-    [Joint ventures], [Low], [Shared], [Shared], [Yes], [Yes], [Yes],
+    stroke: 0.5pt + luma(180), inset: 6pt, align: left,
+    table.header([*Mode*], [*Speed*], [*Cost*], [*Control*], [*Leverage*], [*Develop*], [*Access*]),
+    [Solo development], [Low], [High], [High], [Yes], [Yes], [No],
+    [Strategic alliance], [Varies], [Varies], [Low], [Yes], [Yes], [Sometimes],
+    [Joint venture], [Low], [Shared], [Shared], [Yes], [Yes], [Yes],
     [Licensing in], [High], [Medium], [Low], [Sometimes], [Sometimes], [Sometimes],
     [Licensing out], [High], [Low], [Medium], [Yes], [No], [Sometimes],
     [Outsourcing], [Medium/High], [Medium], [Medium], [Sometimes], [No], [Yes],
-    [Collective research organizations], [Low], [Varies], [Varies], [Yes], [Yes], [Yes],
+    [Collective research], [Low], [Varies], [Varies], [Yes], [Yes], [Yes],
   )
 ]
 
-- *Solo internal development*: slow, costly, full control; suits firms with *strong related competencies, access to capital and no time pressure*.
-- *Strategic alliances*: accessing a partner's technology is quick and cheap but low control; deploying own technology in more markets keeps control.
-- *Joint ventures*: almost as slow as solo; long-term, so great potential to leverage, develop and access competencies; best when *access to other firms' competencies* is very important.
-- *Licensing in*: fast, cheap, low control; for *enabling technologies* not central to competitive advantage, or for *initial market entry and experience* on which to build own capabilities.
-- *Licensing out*: fast, nearly free reach plus royalties, moderate control; leverages but does not develop competencies.
-- *Outsourcing*: gives up moderate control for rapid access to expertise or lower costs; suits activities (a) *not central* to competitive advantage, (b) that would cost *crucial flexibility* in-house, or (c) where the firm has a *cost or quality disadvantage*.
-- *Collective research organizations*: a *long-term commitment*, not rapid access; useful in industries with *complex technologies requiring heavy investment in basic science*, sharing its cost and risk.
+- *Solo*: for firms with *strong related competencies, capital and no time pressure*.
+- *Joint venture*: when *access to other firms' competencies* matters most.
+- *Licensing in*: for *enabling technologies* not central to competitive advantage, or to gain *initial market entry and experience*.
+- *Outsourcing*: for activities (a) *not central* to competitive advantage, (b) that would cost *crucial flexibility* in-house, or (c) where the firm has a *cost or quality disadvantage*.
+- *Collective research*: a *long-term commitment*, useful with *complex technologies needing heavy basic-science investment*.
 
 == Choosing and monitoring partners
 
-Risks: it is hard to judge partner fit (especially for experience or knowledge); the partner may *exploit the relationship* and expropriate knowledge; managers can monitor few collaborations, giving *diminishing* and even *negative returns* to their number. Remedies: *limit the number of collaborations*, *choose partners carefully*, and set up *monitoring and governance mechanisms*.
+Partner fit is hard to judge (especially for knowledge), partners may *exploit the relationship*, and managers can oversee only a few collaborations (*diminishing*, even *negative returns* to their number). Remedies: *limit the number of collaborations*, *choose partners carefully*, *set up monitoring and governance*.
 
 === Partner selection
 
-Factors (size, complementarity, objectives, values and culture) reduce to two dimensions:
-- *Resource fit*: how well the partners' resources integrate into a value-creating strategy; resources can be _complementary_ (ones the firm lacks; the basis of most collaborations) or _supplementary_ (similar resources pooled for market power or economies of scale);
-- *Strategic fit*: *compatible objectives and styles*; objectives need *not be the same* if they don't harm the alliance; unknown or incompatible objectives cause conflict and waste.
+Factors such as size, complementarity, objectives and culture reduce to two dimensions:
+- *Resource fit*: how well partners' resources integrate into a value-creating strategy; resources can be _complementary_ (ones the firm lacks; most collaborations) or _supplementary_ (similar resources pooled for scale or market power);
+- *Strategic fit*: *compatible objectives and styles*; objectives need *not be identical*, but incompatible or hidden ones cause conflict.
 
-Partners can also be assessed by how the collaboration affects:
-- *External opportunities and threats*: buyer and supplier power, threat of entry (could the partner become a competitor?), rivalry, complements and substitutes;
-- *Internal strengths and weaknesses*: leveraging or risking strengths, overcoming weaknesses, hard-to-imitate advantage, core capabilities, financial strength;
-- *Strategic direction*: fit with strategic intent, closing resource or technology gaps, how the collaboration's objectives may change over time.
+A partnership can also be judged by its impact on the firm's *external opportunities and threats* (e.g. could the partner become a competitor?), *internal strengths and weaknesses*, and *strategic direction*.
 
 === Partner monitoring and governance
 
-*Governance* is the act or process of exerting authority and/or control. Successful collaborations have *clear, yet flexible* mechanisms; the *more resources at risk*, the *more governance structure*. Three mechanisms:
+*Governance* is the act or process of exerting authority and/or control. Mechanisms should be *clear, yet flexible*; the *more resources at risk*, the *more structure*. Three mechanisms:
 
-- *Alliance contracts*: legally binding rights, obligations and remedies; they specify each partner's *contribution*, *control* (new partners, terms, rights over outputs) and *distribution of proceeds*, plus monitoring (reports, audits), *termination* provisions and a *graceful exit*.
-- *Equity ownership*: partners own a share of proceeds, which *aligns incentives* and creates *ownership and commitment*;
-- *Relational governance*: self-enforcing, based on *goodwill, trust and reputation* built through repeated collaboration; reduces contracting and monitoring costs and fosters cooperation and learning.
+- *Alliance contracts*: legally binding rights and obligations on each partner's *contribution*, *control* and *distribution of proceeds*, plus monitoring and *termination* provisions;
+- *Equity ownership*: sharing proceeds *aligns incentives* and creates commitment;
+- *Relational governance*: self-enforcing, based on *goodwill, trust and reputation* built through repeated collaboration; it lowers contracting and monitoring costs.
 
 = Protecting innovation
 
+Deciding *whether and how much to protect* an innovation is complex: protection makes the firm the main beneficiary, but sometimes encouraging other producers and complementary goods providers to support the technology speeds its diffusion and its rise to *dominant design*.
+
 == Appropriability
 
-*Appropriability* is the degree to which a firm can capture the rents (profits) from its innovation, instead of seeing them taken by imitators. In general, it is determined by how easily and quickly competitors can imitate the innovation. Imitation is harder when the underlying knowledge is rare or difficult to replicate, e.g. because it is tacit or socially complex.
+*Appropriability* is the degree to which a firm can capture the rents from its innovation. It depends on how easily and quickly competitors can imitate it, i.e. on the *nature of the technology* and the *strength of protection mechanisms*. Imitation is hard when knowledge is rare, e.g. *tacit* (not readily codified) or *socially complex* (arising from interactions between people, so no other group could replicate it). Otherwise firms use *patents, trademarks, copyrights* and *trade secrets*. Patents and copyrights reward creative work *in exchange for making the knowledge public*, so others can build on it.
 
 == Patents, trademarks and copyrights
 
 === Patents
 
-A *patent* protects an invention: it gives its owner the exclusive right to make, use and sell the invention for a limited period (usually 20 years from filing), in exchange for publicly disclosing how it works. To be patentable, an invention must be *novel*, *useful* (industrially applicable) and *non-obvious*. There are different kinds of patents for different contexts (e.g. utility patents, design patents), and international treaties (such as the Paris Convention and the Patent Cooperation Treaty) harmonize patent protection and priority rights across countries.
+A *patent* protects an invention (a *product* or a *process*), usually for 20 years. Types (US): *utility* (process, machine, manufactured item), *design* (ornamental design of an item), *plant* (new plant varieties). Requirements:
 
-=== Trademarks
++ *Useful*: it produces a desirable result or solves a problem;
++ *Novel*: not already patented, published, or publicly used;
++ *Non-obvious*: a skilled person would not reach it with normal effort.
 
-A *trademark* protects words, symbols or designs that identify the source of a good and distinguish it from the goods of other parties #ex[a brand name or logo]. It can be renewed indefinitely, as long as it is used. Systems such as the Madrid Agreement and the Madrid Protocol simplify registration, letting firms secure and manage trademark protection in many countries with a single application.
+Natural laws and trivial changes (substituting materials, changing size or shape, portability) are not patentable; software can now be. The inventor must explain how to make and use the invention and state its *claims*, which are examined and opened to challenge. The process is *long and costly*, a problem with *short product life cycles*.
+
+*International harmonization*: there is *no "world patent"* and national laws differ (e.g. disclosure before filing bars a patent in most countries; *working requirements*; *first to file*, now dominant, vs *first to invent*). Key treaties:
+
+- *Paris Convention*: foreigners get the same rights as citizens, plus a *priority right*: later applications in other members within a time window count as made on the *first filing date*;
+- *Patent Cooperation Treaty (PCT)*: one application reserves the right to file in many countries, *delaying national costs* while the inventor assesses patentability and profitability, and making outcomes more uniform.
+
+*Patent strategies*:
+
+- *Monetization*: besides producing, firms can *license* or *sell* patents;
+- *Early disclosure*: most patentees disclose applications before grant, to signal quality to competitors, investors and licensees;
+- *Patent trolling*: using patents mainly to extract money through lawsuits;
+- *Patent thickets*: dense webs of overlapping patents that make competing hard; firms build *patent war chests* as a retaliation threat.
+
+=== Trademarks and service marks
+
+A *trademark* is a word, symbol, design or other indicator distinguishing the source of a good #ex[a brand name or logo]; a *service mark* does the same for a service. It can use any sense (sounds, smells). It prevents *confusingly similar* marks, not selling the same goods under a different mark. Rights arise from *use*; registration is optional but gives public notice and is needed to sue. Protection lasts *as long as the mark is used* (with renewal). The *Madrid Agreement* and *Madrid Protocol* let one registration extend to other member countries.
 
 === Copyrights
 
-*Copyright* protects original works of authorship, such as artistic, literary or software works, preventing others from reproducing or distributing them without permission. It protects the _expression_ of an idea, not the idea itself. For works created after 1978 it usually lasts for the life of the author plus 70 years. Under the *Berne Convention*, protection is automatic upon creation (no registration is needed) and is recognized in all member countries, with some exceptions and limitations.
+*Copyright* protects original works of authorship (literary, musical, artistic, software): the exclusive right to *reproduce*, make *derivative works*, *distribute*, *perform* and *display* them. Limits: *fair use* (criticism, news, teaching, research); works *not fixed in tangible form*, titles, names, slogans and short phrases are not protected; it protects the *expression*, not the functions produced, so it can be invented around. Protection is *automatic* upon creation (registration is needed only to sue) and lasts much longer than a patent. The *Berne Convention* sets *minimum protection* and *equal treatment for foreigners* in member countries.
 
 == Trade secrets
 
-A *trade secret* is confidential information that gives the firm a competitive advantage and is kept unknown to others #ex[the Coca-Cola recipe]. It requires no registration: the information is simply kept secret internally, so protection can last indefinitely, but it ends as soon as the secret is discovered or disclosed. Trade secrets are therefore useful for technologies that are hard to reverse-engineer (e.g. production processes, which competitors cannot observe), and also for non-technical information such as business practices, customer lists or methods.
+A *trade secret* is business information *kept private* #ex[the Coca-Cola recipe]. Requirements are less stringent than for patents, so a *broader class of assets* qualifies (formulas, customer data, marketing strategies, processes). Under the US *Uniform Trade Secret Act* the information must be *not generally known* or readily ascertainable, have *value contingent on secrecy*, and be protected by *reasonable measures*. Then nobody may use it without authorization if they:
 
-== Wholly proprietary systems versus wholly open systems
++ have a *duty of confidentiality* (employees, lawyers);
++ signed a *nondisclosure agreement*;
++ obtained it by *improper means* (theft, bribery);
++ got it from someone with *no right to disclose* it;
++ learned it *by mistake* knowing it was protected.
 
-- *Wholly proprietary systems*: owned and protected by patents, copyright, secrecy and other mechanisms. They can be produced and improved only by their developer. Customers may be reluctant to adopt them, because of higher costs and the impossibility of mixing components from different producers;
-- *Wholly open systems*: the technology is not protected by patents or secrecy, and anyone can freely access, improve and distribute it #ex[open-source software];
-- *Partially open systems*: most technologies are in between, using different degrees of control. For example, a firm can license its technology to complementary goods providers to encourage them to develop for it, while keeping control of the core.
+The owner can obtain an *injunction* and *damages*.
+
+== Effectiveness and use of protection mechanisms
+
+Effectiveness varies *within and across industries*: patents work well in pharmaceuticals but little where rivals can *invent around* them (electronics), and process patents are hard to enforce. Trade secrets work only if the product can be sold *without revealing the technology*.
+
+With *increasing returns to adoption*, the standard's owner earns *monopoly rents* and *architectural control*, so firms may *liberally diffuse* a technology (open source, liberal licensing) to trigger positive feedback. The *dilemma*: they give up monopoly rents, control is hard to regain, and the platform may *fragment*. Hence many adopt *partial protection*.
+
+== Wholly proprietary versus wholly open systems
+
+Firms sit on a *control continuum*: wholly proprietary, limited, moderate and liberal licensing, wholly open.
+
+- *Wholly proprietary systems*: owned and protected technology, produced or augmented only by the developer, often incompatible with others. They allow appropriation, but customers may resist *higher costs* and the *inability to mix and match* components;
+- *Wholly open systems*: unprotected, freely accessed, augmented and distributed #ex[open-source software]; quickly *commoditized*, with little appropriability;
+- *Partially open systems*: e.g. licensing complement providers while controlling the core. Technologies become wholly open when patents *expire*.
 
 == Advantages of protection and diffusion
 
-- *Protection* allows the firm to capture more of the rents from its innovation, and gives it *architectural control*: the ability to decide the structure of the technology, its compatibility with other goods, and the pace at which it is upgraded. If the technology becomes the dominant design, this gives the firm influence over the entire industry;
-- *Diffusion* (openness) can lead to faster adoption: it stimulates the growth of the installed base and the availability of complementary goods. Open technologies can also benefit from development efforts by people outside the sponsoring firm. The risks are:
-  - development may lack coordination;
-  - it can be hard to make sure that improvements made by others are incorporated into the technology and shared with all users, so the technology may fragment into incompatible versions.
+*Protection*:
 
-In deciding whether, and how much, to protect its innovation, a firm should consider:
+- more *money and incentive* to invest in development, promotion and distribution: the sponsor can use *penetration pricing*, advertising and *subsidies to complements*, accepting short-term losses to win the standard (too risky when many firms share the payoffs);
+- *architectural control*: the ability to determine the technology's structure, *compatibility* with other goods and *development path*. If it becomes the dominant design, *selective compatibility* gives influence over the industry.
 
-- *production capabilities, marketing capabilities and capital*: can the firm alone produce and sell enough to satisfy the market? If not, opening up may be necessary;
-- *industry opposition to sole-source technologies*: customers and other producers may refuse a technology controlled by a single firm, for fear of being locked in;
-- *resources for internal development*: can the firm afford to develop the technology alone, or does it need external contributors?
-- *control over fragmentation*: does the firm need to keep the technology from splitting into incompatible versions?
-- *incentives for architectural control*: how much does the firm gain from controlling the technology's evolution and compatibility?
+*Diffusion*:
+
+- *faster adoption*: several producers grow the installed base faster, competition lowers prices, multiple backers make the technology seem safer, attracting customers and complements;
+- *external development*: more talent and resources improve it. Risks: *lack of coordination*, *redundant effort*, and difficulty *incorporating improvements*, which may fragment the standard.
+
+== Factors in deciding whether to protect
+
++ *Production capabilities, marketing capabilities and capital*: if the firm cannot produce, market or supply enough *complements* alone, sole provision hinders adoption;
++ *Industry opposition to sole-source technology*: rivals may reject a technology giving one firm undue control, so openness may be needed;
++ *Resources for internal development*: without enough capital and expertise, tap *external development* through openness;
++ *Control over fragmentation*: where compatibility matters, keep some control (or create a governing body) to preserve one standard;
++ *Incentives for architectural control*: especially valuable for major *producers of complements*, or to steer the technology toward the firm's *core competencies*.
 
 = Organizing for innovation
 
-== Size of the firm
+== Size: is bigger better?
 
-Large firms have several advantages in innovation: they obtain financing for R&D more easily; they can spread the fixed costs of R&D over a larger sales volume, earning higher returns; they have better complementary assets (e.g. marketing, distribution) and scale and learning effects; and they can afford large or risky projects. The disadvantages are:
+*Schumpeter* argued that *large firms are more effective innovators*. Advantages of size:
 
-- R&D efficiency might decrease (more bureaucracy, less individual control over each project);
-- they may be less innovative, since size makes them less nimble and responsive to change;
-- more people means more communication problems.
+- *Financing*: capital markets are imperfect, so large firms obtain R&D funding more easily;
+- *Spreading fixed costs*: R&D fixed costs are spread over a larger sales volume, giving higher returns;
+- *Complementary assets*: better marketing or financial planning, and greater global reach for information and resources;
+- *Scale and learning effects in R&D*: the firm builds development competencies and learns to select better projects;
+- *Large or risky projects*: in industries with a large development scale, large firms tend to outperform small ones (a coalition of small firms lacks the hierarchical authority to coordinate).
 
-Many large firms try to "feel small" by breaking themselves into smaller, more independent subunits.
+Disadvantages of size:
+
+- *Loss of managerial control*: monitoring and motivating employees gets harder, and individual scientists appropriate less of the returns of their efforts, so incentives fall;
+- *Inertia*: layers of authority and procedures (*bureaucratic inertia*), slower communication among many employees, large fixed assets that favor existing cash flows, and *strategic commitments* to customers and suppliers. This can lead to the *Icarus paradox*: prior success hinders the response to new technological generations.
+
+*Small firms* are more flexible, find it easier to monitor and reward employees and, with fewer resources, choose projects more carefully; many studies find they often outperform large firms, though not in every industry.
+
+*Making big firms feel small*: firms break into smaller subunits with an entrepreneurial culture. In fast-changing industries, large firms have been *disaggregated* into networks of specialized, autonomous divisions or independent firms (*virtual*, *network*, *modular organizations*).
 
 == Structural dimensions of the firm
 
-- *Centralization*: the degree to which decision-making authority is kept at the top of the firm. _Centralized_ R&D maximizes economies of scale and makes it easier to deploy innovations across the whole firm. _Decentralized_ R&D enables each division to develop products or processes that closely meet its own needs, but can lead to redundant activities, and innovations may not be exploited across the whole firm;
-- *Formalization*: the degree to which the firm uses rules, procedures and written documentation to structure the behavior of individuals or groups. It ensures activities run smoothly and predictably, but may stifle creativity and innovation;
-- *Standardization*: the degree to which activities in the firm are performed in a uniform manner;
-- *Mechanistic structures*: high formalization and standardization. They are efficient, but unsuitable for innovation;
-- *Organic structures*: free-flowing, with low formalization and standardization. They favor creativity and innovation;
-- *Ambidextrous organization*: a complex organizational form combining multiple, internally inconsistent architectures (mechanistic + organic) to achieve both short-term efficiency and long-term innovation #ex[a mechanistic main business plus an organic, independent division for new technologies].
+- *Centralization*: the degree to which decision-making authority is kept at top levels of the firm (*decentralization*: pushed down to lower levels). It concerns both where activities are located and where authority over them lies;
+- *Formalization*: the degree to which the firm uses rules, procedures and written documentation to structure the behavior of individuals or groups;
+- *Standardization*: the degree to which activities are performed in a uniform manner.
+
+*Centralized vs. decentralized R&D*:
+
+- *Decentralized*: innovations fit each division's needs and customers and exploit diverse knowledge across divisions; more and more varied projects (more failures, fewer *errors of omission*). Risks: *reinventing the wheel*, technologies not exploited elsewhere in the firm, lost scale and learning effects;
+- *Centralized*: maximizes economies of scale, specialization and learning effects, and lets the central department deploy technologies coherently across the firm.
+
+The effect of centralization on flexibility is *ambiguous*: a centralized firm can impose a *bold change of direction* decisively, while a decentralized firm can *respond faster* to some changes because lower levels decide without going up the hierarchy.
+
+*Formalization* gives clear expectations and can *substitute for managerial oversight*; *standardization* makes activities run smoothly and predictably and ensures consistent quality. But both can *stifle innovation*: detailed rules make the firm rigid and employees less empowered, and minimizing variation limits experimentation.
+
+== Mechanistic vs. organic structures
+
+- *Mechanistic*: high formalization and standardization; efficient and reliable, especially in large-volume production. Usually centralized, but it can be decentralized using formalization instead of direct oversight. Often deemed unsuitable for innovation;
+- *Organic*: low formalization and standardization, free-flowing, employees with wide latitude. Better for innovation and dynamic environments, at a possible cost in efficiency.
+
+*Size vs. structure*: large firms use more formalization and standardization because direct oversight becomes hard, which lowers coordination costs but makes them mechanistic. To counter rigidity, many *decentralize authority*, organizing as groups of small companies with access to the corporation's resources.
+
+== The ambidextrous organization
+
+*Tushman and O'Reilly*: an *ambidextrous organization* has a complex form composed of multiple, internally inconsistent architectures that together achieve short-term efficiency (incremental innovation) and long-term innovation (radical innovation). Approaches:
+
+- *Different structures in different units*: mechanistic, centralized manufacturing alongside an organic, decentralized R&D division with its own incentives #ex[a mechanistic main business plus an organic, independent division for new technologies];
+- *Isolating teams*: teams that interact too closely converge early on the same ideas; *skunk works* (teams operating nearly autonomously from the parent, with little bureaucracy) explore freely. Entrepreneurial units give a large firm small-firm incentives, making the size debate partly moot;
+- *Alternating structures over time*: *Schoonhoven and Jelinek* found a *dynamic tension*: formal structures plus frequent reorganizations, and *quasiformal structures* (teams, task forces, dotted-line relationships) that change fast and span boundaries, but take time to manage and are *hard to kill*.
 
 == Modularity and loosely coupled organizations
 
-In a *loosely coupled organization*, development and production activities are not tightly integrated: they are coordinated through shared standards instead of direct supervision. This lets the components of a product be developed by highly autonomous divisions of the firm, or even by independent firms (as with modular products). The drawback is that some activities create important synergies only when they are tightly integrated, and these are lost in a loosely coupled organization.
+- *Modularity*: the degree to which a system's components can be separated and recombined, achieved through *standard interfaces*. It gives efficiency at the component level and *variety at the product level*, meets *heterogeneous demand* cost-effectively and allows upgrades without replacing the whole system. It is worth little if all customers want the same thing;
+- *Loosely coupled structure*: activities are not tightly integrated but coordinated through *shared objectives and common standards* (*embedded coordination*), so components can be developed by autonomous divisions or independent firms. Modular products tend to go with modular, less centralized organizations; *information technology* spread loose coupling by lowering coordination costs. Firms can focus on their *core competencies* and outsource the rest.
+
+*Disadvantages*: activities needing frequent exchange of *complex or tacit knowledge* lose synergies without integration; and an integrated firm can *resolve conflicts* by managerial authority, while separate firms may need costly courts or arbitration.
 
 == Using culture and norms to foster innovation
 
-- *Creating norms of meritocracy, flexibility and autonomy*: norms determine whether employees feel empowered to challenge assumptions and propose new ideas, or are expected to stick to the current way of doing things. Flexible roles lead to more creativity;
-- *Eliminating norms of consensus*: requiring consensus can force people to converge too early on mediocre ideas;
-- *Solo ideation vs. brainstorming groups*: people in groups can be less creative because of _evaluation apprehension_ (fear of being judged by others) and _production blocking_ (while waiting to speak, people forget their ideas). To be creative, people should first work alone, before the group effort begins;
-- *Lowering the price of failure*: people take risks only if failing is not punished too harshly;
-- *Cultivating idealistic goals*: ambitious, meaningful goals motivate people to innovate.
+- *Creating norms of meritocracy, flexibility and autonomy*: norms signal whether employees may challenge assumptions; flexible roles and autonomy attract and nurture creative people, and everyone should feel empowered to contribute;
+- *Eliminating norms of consensus*: requiring consensus discourages dissent and forces premature convergence on mediocre, orthodox ideas; disagreeing teams can pursue separate paths;
+- *Solo ideation vs. brainstorming groups*: groups produce fewer, less novel ideas because of *evaluation apprehension* (self-censoring for fear of judgment) and *production blocking* (forgetting ideas while waiting to speak). People should work alone before the group effort begins;
+- *Lowering the price of failure*: celebrate bold-but-intelligent failures and learn from them;
+- *Cultivating idealistic goals*: a noble mission fosters intrinsic motivation and shapes behavior without direct oversight.
 
 == Managing innovation across borders
 
-Multinational firms can organize innovation across countries in different ways, ranging from fully centralized to fully autonomous:
+Multinationals amplify the centralization dilemma: decentralizing taps local knowledge, but local innovations are hard to transfer and may be rejected elsewhere (*not-invented-here syndrome*). *Bartlett and Ghoshal* identify four strategies:
 
-- *Center-for-global*: all innovation is done at a central hub, and innovations are then deployed throughout the company worldwide. The risk is that innovations do not fit the needs of foreign markets, and may not be deployed quickly or effectively;
-- *Local-for-local*: each national subsidiary uses its own resources to create innovations for its local market. This leads to redundant activities and a lack of scale in R&D;
-- *Locally leveraged*: the firm takes the most creative resources and innovations of each subsidiary and deploys them across the whole company;
-- *Globally linked*: the firm builds a system of decentralized R&D divisions that are connected to each other, pooling their resources to develop innovations jointly, which are then deployed globally.
+- *Center-for-global*: all innovation is conducted at a central hub and then diffused throughout the company. It gives tight coordination, scale, protection of core competencies and standardization, but is poorly responsive to local markets, and divisions may resist central innovations;
+- *Local-for-local*: each subsidiary conducts its own R&D for its local market. Customized, suited to autonomous divisions and differentiated markets, but redundant, lacking scale, with poor diffusion;
+- *Locally leveraged*: each subsidiary conducts its own R&D, but the firm uses integrating mechanisms (cross-regional meetings, an international brand custodian) to leverage the best innovations company-wide. Effective when markets have similar needs;
+- *Globally linked*: R&D is decentralized but centrally coordinated for global needs; each division *specializes in a different innovation task*, exploiting local resources. Powerful but costly, since it needs intensive coordination.
+
+They propose a *transnational approach* (make centralized innovation more effective and decentralized innovation more efficient, leveraging resources from anywhere in the firm) through *reciprocal interdependence* among divisions, *integration mechanisms* (cross-division teams, personnel rotation) and a balance between *national brands* and *global image*.
 
 = Managing the new product development process <npd>
 
+Despite great attention, most new product development projects *fail to produce an economic return*: many are never completed, and many completed ones flounder in the market.
+
 == Objectives of the new product development process
 
-The process must achieve three goals at the same time, which sometimes conflict with each other:
+The process must achieve three goals *at the same time*, which sometimes conflict:
 
-- *Maximizing fit with customer requirements*: the product must offer better quality or a more attractive price than competing products — which is not easy to achieve;
-- *Minimizing development cycle time*: a product can fail if the firm takes too long to bring it to market;
-- *Controlling development costs*: development must be not only effective, but also efficient.
+- *Maximizing fit with customer requirements*: more compelling features, quality or price than competitors. Firms miss it by not knowing which features customers value most, *overestimating willingness to pay*, or compromising between *heterogeneous demands* so that no group is attracted;
+- *Minimizing development cycle time* (from project initiation to launch): early products gain loyalty, installed base and complements; many costs grow with time; slow firms may not amortize costs before their generation is obsolete; fast firms can quickly revise products and get *both first- and second-mover advantages*. Speed has costs (consumers fearing rapid obsolescence, lower quality, overburdened teams, less testing), but is mostly linked to success;
+- *Controlling development costs*: development must be not only effective, but also *efficient*, or costs cannot be recouped.
 
 == Sequential vs. partly parallel development processes
 
-In a *sequential process*, each stage starts only when the previous one is finished (concept → product design → process design → …). There is no early warning that planned features cannot be manufactured, so the project may have to go back and forth between product design and process design, lengthening the cycle time.
+In a *sequential process*, each stage (opportunity identification -> concept development -> product design -> process design -> commercial production) starts only when the previous one is finished. R&D designs without manufacturing input, so there is *no early warning* that planned features cannot be manufactured: the project iterates back and forth between product and process design, lengthening the cycle time.
 
-In a *partly parallel process*, stages overlap: product design starts before concept development is complete, and process design starts long before product design is finalized. This shortens the cycle time, but in some situations it can substantially increase risks and costs: if an earlier stage changes, the work already done in the later stages may be wasted.
+In a *partly parallel process*, activities overlap: product design starts before concept development is complete, and process design long before product design is finalized. This improves coordination, avoids hard-to-manufacture designs and shortens the cycle time. *Concurrent engineering* also plans for *later lifecycle stages* (maintenance, disposal, recycling).
+
+Risks: if product design changes require process changes, the production process needs *costly rework*, especially in markets with *rapid change and uncertainty*; and once process design has started, managers may resist changing a suboptimal product design. Stage-Gate processes try to minimize these risks.
 
 == Project champions
 
-A *senior project champion* is a manager with the power and authority to support and fight for a project: he or she allocates human resources to it and stimulates communication and cooperation between functional groups. The risk is that the champion's enthusiasm may cloud judgment about the true value of the project.
+A *senior project champion* is a senior manager who supports and fights for a project: he or she secures *human and capital resources*, keeps the project's *momentum*, and stimulates *cross-functional communication and cooperation*, needed both for speed and for customer fit.
+
+*Risks of championing*:
+
+- the role may *cloud judgment* about the project's true value, pushing normal optimism to extremes;
+- *escalating commitment*: managers who invested reputation and years cannot admit the project should be killed;
+- the champion's *seniority* discourages others from challenging the project.
+
+Remedies: *antichampions* (devil's advocates), a culture open to *dissent*, and justification on *objective criteria*.
+
+#note(title: "Research brief: five myths about product champions (Markham and Aiman-Smith)")[
+Evidence shows that projects with champions are *not* more likely to succeed in the market; champions often act out of *self-interest*; and they are equally involved in radical and incremental projects, come from *any level* and from *many functions* (not mainly marketing).
+]
 
 == Involving customers and suppliers in the development process
 
-The end customer is often the best person to identify the maximum performance and the minimum service requirements of a new product (e.g. through *beta testing*, where a pre-release version is given to some users).
+*Customers*. Screening on financial criteria and technical synergy leads to too many incremental updates; it should focus on the product's *advantage for customers* and *growth of its target market*. The end customer best identifies the *maximum performance* and *minimum service requirements*; *distributors* also know who buys, how and with what problems. Customers can be an *information source* or *co-developers*:
 
-In *agile development*, the product is divided into many small features, which are developed quickly and shown to customers for feedback. A key concept is the *minimum viable product (MVP)*: the simplest version of the product that can be released to test it with real customers. Development then proceeds in small increments, guided by feedback. There can also be *co-creation*, where customers actively take part in designing the product.
+- *Beta testing*: an early working prototype is released to users for feedback; it also exploits external development and *signals the market* about upcoming products;
+- *Agile development*: the product is broken into small independent features, built by self-organizing teams as *minimum viable products* and shown to customers for rapid, incremental adaptation;
+- *Co-creation*: customers help create the end product.
 
-Firms should focus in particular on *lead users*: customers who face the same needs as the rest of the market, but months or years earlier, and who would benefit greatly from a solution.
+*Lead users*: customers who face the market's needs *months or years earlier* and would benefit disproportionately from a solution. They reveal which needs matter most, and involving them is *faster and cheaper* than a random sample of customers.
 
-Suppliers can also contribute ideas for product improvements or more efficient development (e.g. alternative inputs).
+*Suppliers*, as team members or alliance partners, suggest improvements #ex[an alternative input at lower cost], keep *input costs* low, and help inputs arrive *on time* with the right quality.
 
 == Crowdsourcing
 
-Firms can also open up an innovation task to third parties, by addressing an innovation challenge to the general public or to specific groups of innovators. A crowdsourcing challenge has four steps:
+*Crowdsourcing*: a distributed problem-solving model in which a problem is presented to the public or targeted innovators, who voluntarily contribute ideas for compensation, intrinsic rewards or both (often enjoyment, social or reputational benefits). Four steps:
 
-+ *Need translation*: the need is stated clearly, concisely and compellingly, avoiding industry jargon and reducing the challenge to its most basic science, so that people from other fields can understand it;
-+ *Connecting*: the challenge is broadcast to the network of potential solution providers considered most suitable;
-+ *Evaluation/selection*: the submitted proposals are reviewed in depth, and the most interesting ones are selected and collected in a report;
-+ *Acquisition*: the firm negotiates an agreement with the solution provider to transfer the knowledge, a license, a patent, etc., usually in exchange for money or another compensation. The solution may then have to be adapted to the firm's specific needs.
++ *Need translation*: a clear, concise need statement, without jargon, reduced to its basic science so solvers from unrelated fields can respond;
++ *Connecting*: the challenge is broadcast to the most suitable network of solution providers;
++ *Evaluation/selection*: proposals are reviewed and the best are collected in a report;
++ *Acquisition*: the firm negotiates the transfer of knowledge, a license or patent for compensation, and may adapt the solution.
+
+Limit: moving from idea to *implementation* requires very different skills and resources.
 
 == Tools for improving the new product development process
 
 === Stage-Gate processes
 
-Firms tend to keep supporting projects even after their expected value has become negative. To avoid this, they introduce *go/kill decision points*. The *Stage-Gate process* is a model that divides development into stages, separated by "gates" where the project is evaluated and either continued or stopped:
+Because of escalating commitment, firms keep supporting projects with negative expected value; *go/kill decision points* prevent this. *Cooper's Stage-Gate process* moves projects from idea to launch:
 
-+ idea generation;
-+ scoping;
-+ building the business case;
-+ development;
-+ testing and validation;
-+ launch.
+- *Discovery*: idea generation;
+- *Scoping*: quick preliminary investigation;
+- *Build the business case*: product definition, justification, plan;
+- *Development*: detailed design, plus production and launch plans;
+- *Testing and validation*: of the product, its production and marketing;
+- *Launch*, then a *post-launch review*.
 
-At every gate, the firm decides whether it makes sense to continue with the project.
+Cross-functional teams gather technical, market and financial information. Each gate has *deliverables* (inputs from the previous stage), *criteria* (for the decision) and *outputs* (go, kill, hold or recycle, plus an action plan). Since each stage costs more than the previous, investment becomes *incremental commitments*: spending rises only as uncertainty falls.
 
-=== Quality function deployment (QFD)
+=== Quality function deployment (QFD): the house of quality
 
-A tool for improving communication and coordination among engineering, marketing and manufacturing. Its core is the *house of quality*, a matrix that links the customer requirements (what customers want) to the engineering attributes of the product (how the product is built), showing which technical choices matter most to satisfy customers.
+Developed in Japan to improve *communication among engineering, marketing and manufacturing*. Its framework, the *house of quality*, is a matrix mapping weighted *customer requirements* against *engineering attributes*: the team scores their relationships and the correlations between attributes, derives the importance of each attribute, compares *competitors*, sets *design targets* and evaluates the new design. It gives a *common language*, highlights *design trade-offs* and competitive shortcomings, and improves cycle time and customer fit.
 
 === Design for manufacturing (DFM)
 
-A set of design rules that brings manufacturability issues into the design process as early as possible, improving integration between engineering and manufacturing. The goal is to reduce costs and improve quality by making products easy to manufacture: the easier a product is to manufacture, the fewer assembly steps it requires and the higher labor productivity is, which lowers unit costs.
+Brings *manufacturability* into design early through *design rules*: minimize parts; minimize part numbers (common parts); eliminate adjustments; eliminate fasteners; eliminate jigs and fixtures. Fewer assembly steps mean higher productivity, lower unit costs, fewer assembly mistakes (higher quality) and shorter cycle time.
 
 === Failure modes and effects analysis (FMEA)
 
-A method in which the firm identifies the potential failures of a system, ranks them according to their severity, likelihood and detectability, and plans how to address the most critical ones first.
+Identifies *potential failures*, rates each on *severity*, *likelihood of occurrence* and *difficulty of detection*, combines them into a *risk priority number*, and plans actions for the riskiest, prioritizing failures with the greatest impact on *quality, reliability and safety*.
 
 === Computer-aided design, engineering and manufacturing
 
-*Computer-aided design (CAD)* and *computer-aided engineering (CAE)* use computers to build and test product designs (e.g. 3D models and simulations, without building physical prototypes). *Computer-aided manufacturing (CAM)* uses computers to control production; a recent form of it is *3D printing*.
+*CAD* builds three-dimensional models; *CAE* tests them virtually (strength, reliability), reducing the need for physical prototypes, cycle time and costs. *CAM* uses machine-controlled production, faster and more flexible, allowing customization; *3D printing* (additive manufacturing) prints a CAD design layer by layer.
 
 == Tools for measuring new product development performance
 
+Measures (e.g. periodic reviews, *postmortems* after projects) help to identify which projects met their goals and why, *benchmark* performance, improve resource allocation and compensation, and refine innovation strategy. *Multiple measures* are needed, interpreted in light of the firm's strategy and industry #ex[breakthrough-focused firms score low on cycle time].
+
 === New product development process metrics
 
-Firms use various measures of the effectiveness and efficiency of their development process #ex[average time to market, percentage of projects completed on time and on budget, percentage of projects that reach the market]. Each measure captures a different aspect of the firm's ability to bring projects through development. To get an accurate view of current performance, each measure must be applied over a clearly defined period of time.
+Firms use various measures of the effectiveness and efficiency of their development process #ex[average time to market, percentage of projects completed on time and on budget, percentage of projects that reach the market]. Each measure captures a different aspect of the firm's ability to bring projects through development, and must be applied over a clearly defined period of time. Typical metrics: average *cycle time* (by breakthrough, platform, derivative projects), share of projects *meeting deadlines*, *within budget*, and *completed*.
 
 === Overall innovation performance
 
-Firms also measure their overall performance at innovation #ex[return on R&D investment, percentage of sales coming from products launched in the last few years]. These measures give an overall view of the "bang for the buck" the firm gets from its new product development.
+Firms also measure their overall performance at innovation #ex[return on R&D investment, percentage of sales coming from products launched in the last few years], getting the "bang for the buck" of development: *return on innovation* (profits from new products relative to total development and commercialization spending), share of projects meeting *sales goals*, share of revenues from recent products, and successful projects relative to the total portfolio.
 
 = Managing new product development teams
 
+Many firms create *cross-functional new product development teams* to coordinate development activities across departments. Team performance depends on *size*, *composition*, *structure*, *leadership* and *administration*.
+
 == Constructing new product development teams
+
+Size and composition affect the team's *mix of skills*, *access to resources* and ability to provide *communication and coordination* across divisions.
 
 === Team size
 
-Teams can range from a few members to hundreds. Bigger is not always better: larger teams have higher administrative costs and more communication problems, leading to costly delays. Moreover, as a team grows, *social loafing* increases: individuals feel they will not receive full credit (or blame) for their contribution, so their effort and commitment decrease.
+By combining several bases of expertise, teams are powerful problem-solving mechanisms (though individuals may do better alone in *early ideation*; teams are most valuable for *refining and executing* ideas). Bigger is not always better:
+
+- *administrative costs and communication problems* grow, causing costly delays;
+- a *shared sense of identity* is harder to foster;
+- *social loafing* increases: individuals rely on others' work instead of exerting the expected effort, because they perceive they will not receive full credit (or blame) for their contribution.
+
+#note(title: "Research brief: why brainstorming teams kill breakthrough ideas")[
+Brainstorming groups produce *fewer and less novel ideas* than the same number of individuals working alone, because of *fear of judgment* (self-censorship), *production blocking* (waiting one's turn, being distracted by others' ideas) and *feasibility trumping originality* when groups select ideas. For breakthroughs, give people *time alone* before exposing ideas to the team.
+]
 
 === Team composition
 
-*Cross-functional teams* include members from more than one functional area (e.g. engineering, manufacturing, marketing). This reduces the delays caused by poor communication between functions. A greater variety of specialists provides a broader knowledge base and more cross-fertilization of ideas, and lets the team draw on a wider range of external information sources.
+Poor communication among marketing, R&D and manufacturing leads to a poor fit with *customer requirements*, products that are hard to manufacture (manufacturing determines *quality and price*), and *longer cycle times*.
 
-However, diversity can also raise coordination and communication costs, because people tend to interact more often and more intensely with those they perceive as similar to themselves. This phenomenon is called *homophily*.
+*Cross-functional teams*: teams whose members are drawn from multiple functional areas (e.g. R&D, marketing, manufacturing). Benefits of diversity:
+
+- *Functional diversity*: broader knowledge base and more *cross-fertilization* of ideas;
+- *Boundary spanning*: members draw on different *external information sources and resources* (journals, associations, outside contacts);
+- *Organizational tenure diversity*: members who joined at different times have different outside contacts;
+- *Cultural and demographic diversity* (education, gender, age): more viewpoints, better problem solving, more innovative outcomes.
+
+However, diversity raises *coordination and communication costs* because of *homophily*: the tendency to like, and interact more with, people perceived as similar, since communication is easier with shared dialect, mental models and beliefs. It is *self-reinforcing*, as interaction builds common dialect, trust and familiarity. Heterogeneous teams thus have more difficulty integrating views, with *more conflict and lower cohesion*. To realize their information and creativity advantage they need *long-term contact* and *incentives for cooperation*.
+
+*Personality* also matters (Kichuk and Wiesner, *Big Five*): success is linked to *high extroversion*, *high agreeableness* and *low neuroticism*.
 
 == The structure of new product development teams
 
-From the least to the most independent:
+Wheelwright and Clark's typology, from least to most independent:
 
-- *Functional teams*: members stay in their functional departments and report to their functional manager; there is no real project manager. Suitable for derivative projects that mainly affect a single function;
-- *Lightweight teams*: members stay in their functional departments, but a (usually junior) project manager provides cross-functional coordination. Members work on the project only part-time. Suitable for derivative projects that do not require much coordination and communication;
-- *Heavyweight teams*: a senior project manager provides cross-functional integration, and members are collocated (they work in the same place), but still also report to their functional managers. Communication and coordination are much better than in functional teams. Typically suitable for platform projects;
-- *Autonomous teams*: the project manager provides integration, members are collocated, and they report only to the project manager, often working full-time on the project. Suitable for breakthrough projects. The risk of heavyweight and especially autonomous teams is that their independence may lead them to pursue goals that conflict with the interests of the functions.
+- *Functional teams*: members stay in their departments, report to functional managers and meet only periodically; temporary, little time on the project, *no project manager*. Easy to implement, but little cross-functional coordination and *low commitment* (members are rewarded on functional performance). Suited to *derivative projects affecting a single function*;
+- *Lightweight teams*: members stay in their functions, which keep authority over evaluation; temporary and part-time. A *junior or middle-level project manager* with little authority, plus liaison personnel, coordinates. Only a *small improvement* over functional teams; suited to *derivative projects* not requiring much coordination;
+- *Heavyweight teams*: members are *collocated* with the project manager and the core group is often *full-time*. The project manager is a *senior manager* who outranks functional managers, commands resources and evaluates members (with functional heads). *Strong coordination and commitment*, but still *temporary*, so careers remain with the functions. Suited to *platform projects*;
+- *Autonomous teams*: members are collocated and dedicated full-time and often *permanently*; a very senior project manager has full control over resources and *exclusive* authority over evaluation. The team sets its *own policies and rewards* and is *fully accountable*, like an independent division. Excels at *rapid, efficient development* that breaks away from existing technologies and routines, and can give birth to new business units; but it may *underutilize the parent's resources* and is hard to *fold back* into the firm (often becoming a division or spin-off). Suited to *breakthrough projects* and some major platform projects.
+
+Moving toward autonomous teams, the *potential for conflict* with the functions rises: independent teams may pursue goals counter to the functions' interests, and senior managers must keep this in check.
 
 == The management of new product development teams
 
-- *Team leadership*: the team leader directs the team's activities, keeps it aligned with project goals, and acts as the link between the team and senior management. The leader's attributes (seniority, authority, ability to "speak the language" of the different functions) must match the team type;
-- *Team administration*: many firms make teams write and sign a *project charter* (stating the project's mission and its exact, measurable goals) and a *contract book* (the detailed plan to achieve those goals). This ensures that all members share the same understanding of the goals and feel ownership of and commitment to the project;
-- *Managing virtual teams*: virtual teams have members who may be far apart from each other, but collaborate intensively through information technologies (videoconferencing, groupware, e-mail, chat). They face particular challenges in promoting participation, cooperation and trust, so their members and administration processes must be chosen with special care.
+Leadership and administration should be *matched to the team's structure*.
+
+=== Team leadership
+
+The leader directs the team's activities, keeps it *aligned with project goals*, and *communicates between team and senior management*; leaders are often more directly related to success than senior managers or champions, as they interact more with the team. Lightweight teams may have a junior or middle manager; heavyweight and autonomous teams need a manager with:
+
+- *high status* in the organization;
+- the role of *concept champion* for the team;
+- *conflict resolution* skills;
+- *multilingual skills*: able to speak the language of marketing, engineering and manufacturing;
+- *influence* over the functions.
+
+=== Team administration
+
+Many firms have heavyweight and autonomous teams develop:
+
+- *Project charter*: the project's *mission* and *exact, measurable goals* (possibly vision, team members and time commitment, budget, reporting timeline, success criteria), creating a *common understanding* of purpose and priorities;
+- *Contract book*: negotiated by core members and senior managers, the *detailed plan* to achieve the charter's goals (resources, schedule, results). It provides *benchmarks* to monitor performance and, once *signed*, builds *commitment, ownership and empowerment*.
+
+=== Managing virtual teams
+
+*Virtual teams*: members may be far apart but collaborate intensively through information technologies (videoconferencing, groupware, e-mail, chat). They let people with *unique skills* work together regardless of location, without travel costs.
+
+Challenges: no benefits of *collocation* (rich face-to-face and informal interaction building shared norms and dialect), *less rich channels*, *more conflict*, *time zones*, difficulty building *trust* and transferring *tacit knowledge*. Hence:
+
+- *selection*: members comfortable with the technologies, with strong *interpersonal skills*, independent, hard-working, and who *seek interaction*;
+- *administration*: standards for *response times* and availability for *synchronous communication* (all parties at the same time, e.g. calls); informal interaction built into the *ground rules* (e.g. scheduled unstructured chat times).
+
+#note(title: "Research brief: virtual international R&D teams (Gassman and von Zedtwitz)")[
+Four patterns, from decentralized to centralized: *decentralized self-coordination* (weak coordination relying on corporate culture; suits *modular* innovation), *system integrator as coordinator*, *core team as system architect* (can handle *architectural* innovation), *centralized venture team* (all resources relocated under a powerful manager; costly). Radical, architectural or tacit-knowledge-intensive innovations require *more centralization*.
+]
 
 = Crafting a deployment strategy
 
@@ -1248,69 +1363,90 @@ From the least to the most independent:
 
 === Strategic launch timing
 
-Firms generally try to shorten their development cycles, both to reduce costs and to have more freedom in choosing when to enter. But this does not mean they should always launch as early as possible. Launch timing can be used strategically: to exploit business cycles or seasonal effects (e.g. the Christmas season), to position the product with respect to previous generations of related technologies, and to make sure that production capacity and complementary goods or services are ready.
+Firms shorten development cycles to cut costs and widen timing options, but should not always launch as early as possible. Launch timing can be used:
+
+- to exploit *business cycle or seasonal effects* (e.g. the Christmas season);
+- to *position the product* with respect to previous generations and competitors: too early, customers wait to compare rivals or are confused about its generation; too late, the firm loses its leader image and concedes installed base;
+- to make sure that *production capacity and complementary goods* are ready at launch.
 
 === Optimizing cash flow versus embracing cannibalization
 
-When a firm introduces a next-generation product in a market where it already sells the previous one, the new product will take sales away from the old one: this is called *cannibalization*#footnote[When a firm's sales of one product (or at one location) reduce its sales of another of its products (or at another of its locations).]. The firm must decide whether, and how much, to accept it. If the current product is very profitable, the firm often delays the new one until the profits of the current product start to decrease significantly. The risk is that a competitor launches first.
+A next-generation product takes sales from the firm's previous one: *cannibalization*#footnote[When a firm's sales of one product (or at one location) reduce its sales of another of its products (or at another of its locations).]. Product life cycle research recommends timing each generation to *optimize cash flows*: a very profitable product is kept until its profits decline. In technology-driven industries this lets competitors open a *technological gap*. Investing in *continuous innovation* and *willingly cannibalizing* its own products prevents rivals from gaining a persuasive lead, and upgrade incentives remove customers' reason to switch.
 
 == Licensing and compatibility
 
-Opening a technology (e.g. through liberal licensing) speeds up its adoption, but has risks:
+Opening a technology (e.g. licensing) speeds adoption, as more producers improve and promote it and complements are easier to develop. But complete openness has risks:
 
-- other producers may drive the price down so much that the firm cannot recover its development costs;
-- if no producer earns significant margins, no one has an incentive to develop the technology further;
-- the platform may become fragmented, as different producers change it to fit their needs, leading to incompatibility between producers and lower product quality.
+- competitors may drive the price below what recovers development costs;
+- with no significant margins, no one has incentives to keep developing it;
+- the platform may become *fragmented*, losing compatibility and quality.
 
-Firms must also decide whether to make their products *backward compatible*, i.e. able to work with their own previous generations of technology (and with the complementary goods developed for them). Backward compatibility keeps existing customers and their complements, but sometimes conflicts with the technological goals of the update, creating a difficult strategic choice.
+Successful deployment requires a balance: a system *open enough* to attract complementary goods providers (and other producers, if desired) and *protected enough* to sustain quality, margins and compatibility.
+
+Compatibility with *others' technologies* lets the firm tap an existing installed base and complements; incompatibility with future entrants protects its own.
+
+*Backward compatibility* (working with the firm's own previous generations and their complements) eases adoption of upgrades, but may conflict with the upgrade's technological goals. Combining it with *continuous innovation* is very powerful: new platforms leverage existing complements, linking generations and leaving competitors no window to enter (at the cost of some initial complement sales).
 
 == Pricing
 
-Price influences at the same time the product's positioning in the market, its rate of adoption, and the firm's cash flow. Common strategies:
+Price influences at the same time the product's *positioning*, its *rate of adoption*, and the firm's *cash flow*. The firm must first set its pricing *objective*:
 
-- *Survival pricing*: setting prices that cover variable costs and part of the fixed costs. It is a short-term strategy: in the long run, the firm must find a way to create additional value;
-- *Market skimming*: launching at a high price to capture first the customers willing to pay the most, and then lowering it over time. It maximizes early margins;
-- *Penetration pricing*: launching at the lowest possible price, to attract customers quickly, increasing volume and lowering production costs. It maximizes market share. For it to pay off, the firm must be able to control compatibility with complements, and to offer complements at a sufficient range of prices and quality to meet customer needs.
+- *Survival pricing*: covering variable costs and part of the fixed costs. It is a short-run strategy: in the long run, the firm must find a way to create additional value;
+- *Maximizing current profits*: based on estimated costs and demand; may sacrifice the long term;
+- *Market skimming*: launching at a high price. It maximizes early margins, signals a major innovation and recoups development costs, but attracts competitors and slows adoption; if costs fall fast with volume, it can be less profitable;
+- *Penetration pricing*: setting the lowest possible price (even free) to attract customers quickly, driving volume up and costs down, to maximize market share. It often requires risky capacity built ahead of demand, but can yield a low-cost position with large share. It is typical with *increasing returns*, to build installed base, attract complements and ride down the learning curve.
 
-Firms can also influence cash flow and customers' perception of costs by changing _when_ the customer pays. Typically, the customer pays the full price before owning the product, but other models let customers delay payment, for example with a *free trial* for a fixed period. Another approach is the *freemium* model, where the basic product is free, but additional features or capacity have a price.
+Firms may also price the platform *below cost* and recoup the losses through *complementary goods or services* (the *"razor and razor blade" strategy*): if expected profits from complements are high, a lower platform price is warranted. For it to pay off, the firm must be able to *control compatibility* with complements and offer them at a sufficient range of prices and quality.
+
+Firms can also shape cash flow and customers' *perception of costs* through _when_ the price is paid: a *free trial* (useful under high uncertainty), *pay as you go* (leasing, paid service), or *freemium*, where the base product is free but extra features or capacity are paid (it may signal lower value). *Introductory pricing*, valid for a stated period, tests the market without long-term commitment.
 
 == Distribution
 
 === Selling direct versus using intermediaries
 
-Firms can sell directly to users (through their own sales force, an online store or a catalog), or use *intermediaries* such as manufacturers' representatives, wholesalers and retailers. Selling direct gives the firm more control over the selling process, pricing and service, but it can be impractical or too expensive.
+Firms can sell directly (sales force, online, catalog), or use *intermediaries*: *manufacturers' representatives* (independent agents selling one or a few manufacturers' lines), *wholesalers* (buy in bulk, resell in smaller or mixed bundles to other channel members) and *retailers* (sell to the public). Selling direct gives more control over selling, pricing and service, but can be impractical or too expensive.
 
-Intermediaries make distribution more efficient, by transporting goods, holding inventory, selling, and handling transactions with customers; retailers also offer convenience through many geographically dispersed stores. *Original equipment manufacturers (OEMs)* play an even more important role: an OEM buys products (components) from other manufacturers and assembles them into a product customized for the end user #ex[a PC maker buying processors from Intel]. In some industries, information technology has enabled *disintermediation*#footnote[The reduction of the number of intermediaries in a supply channel; for example, when manufacturers bypass wholesalers and/or retailers to sell directly to end users.] or a reconfiguration of the intermediaries used.
+Intermediaries make distribution more efficient: they *break bulk* (manufacturers want to sell large quantities of few items, customers want small quantities of many), transport goods, carry inventory, sell, handle transactions and offer dispersed locations. *Original equipment manufacturers (OEMs)*, or *value-added resellers (VARs)*, play an even more crucial role: an OEM buys products or components from other manufacturers and assembles or customizes them into a product sold under its own name #ex[a PC maker buying processors from Intel]. Information technology has enabled *disintermediation*#footnote[The reduction of the number of intermediaries in a supply channel; for example, when manufacturers bypass wholesalers and/or retailers to sell directly to end users.] in some industries, but in most it has only rerouted the chain or reshaped intermediaries' roles.
+
+To choose, the firm should ask:
+
++ How does the product fit the *distribution of its existing product lines*?
++ How numerous and dispersed are customers, and how much *education, service, trial, installation or customization* do they need?
++ How are *competing or substitute products sold*? This shapes expectations and perceived positioning.
 
 === Strategies for accelerating distribution
 
-- *Alliances with distributors*: through strategic alliances or exclusivity contracts, the firm gives distributors a stake in the success of the new technology, so they carry and promote it aggressively. Firms that already have relationships with distributors (for other products) have an advantage; others may need to build them, or even integrate forward vertically (i.e. do the distribution themselves);
-- *Bundling relationships*: selling the new technology together with another product that already has a large installed base, so it "piggybacks" on that product's success. Once customers have the new product together with something they already use, switching costs may keep them from changing to another product, even one they might have preferred. As they become familiar with it (e.g. through training), their ties to the technology grow, and so does the likelihood they choose it again in the future;
-- *Contracts and sponsorship*: agreements with distributors, complementary goods providers, and even large end users (such as universities or government agencies) to ensure the technology is used, in exchange for discounts, special service contracts, advertising support or other incentives;
-- *Guarantees and consignment*: when the market is very uncertain, the firm can convince distributors to carry the product by offering guarantees (e.g. taking back unsold stock) or by selling it on *consignment* (the distributor pays only for the units it actually sells).
+When a single dominant design is likely, rapid deployment builds installed base, attracts complements and lowers costs.
+
+- *Alliances with distributors*: alliances or exclusivity contracts give distributors a stake in the technology's success; firms lacking such relationships may need to build them or integrate forward vertically;
+- *Bundling relationships*: selling it together with a product already in wide use, so it "piggybacks" on its installed base; switching costs and familiarity then tie customers to it;
+- *Contracts and sponsorship*: agreements with distributors, complement providers and large end users to use the technology, in exchange for discounts, service or other incentives;
+- *Guarantees and consignment*: under high uncertainty, taking back unsold stock or selling on *consignment* (paid only for units sold); complement producers can get purchase guarantees or financing.
 
 == Marketing
 
-The major marketing methods are:
+The marketing strategy must consider both the *nature of the target market* and the *nature of the innovation*. The major methods are:
 
-- *Advertising*: the firm must craft an effective message and choose the media that reach the right target market. The message must balance being entertaining and memorable with providing enough useful information;
-- *Promotions*: temporary incentives, at the distributor or customer level, to encourage purchase or trial (e.g. free samples, discounts);
-- *Publicity and public relations*: using free publicity (e.g. press coverage) to generate word of mouth. *Viral marketing* exploits people's social networks: information is sent to a few targeted people who are well connected, with the aim of making it spread rapidly through their networks, like a viral epidemic.
+- *Advertising*: balance memorable and informative messages; choose media by audience match, information richness, reach and cost per exposure;
+- *Promotions*: temporary incentives at the distributor or customer level to stimulate purchase or trial (samples, rebates, displays);
+- *Publicity and public relations*: free publicity, press releases and events to generate word of mouth. *Viral marketing* sends information to targeted individuals well positioned in social networks ("seeding"), so it spreads like an epidemic through trusted personal contacts.
 
 === Tailoring the marketing plan to intended adopters
 
-Adopters of a new technology fall into five categories, which adopt at different times and must be approached differently:
+Adopter categories (Rogers) respond to different marketing:
 
-- *Innovators and early adopters* seek advanced technologies, are willing to take risks and respond to technical content: marketing to them should emphasize innovation and customization;
-- the *early majority* cares about product completeness, ease of use and credibility. Moving from early adopters to the early majority is the hardest step (often called "crossing the chasm");
-- the *late majority and laggards* want reliability, simplicity and low cost, communicated through trusted channels.
+- *Innovators and early adopters*: accept risk, high prices and incompleteness but may want customization and support; they respond to *technical content* and leading-edge appeal, via high-content, selective channels;
+- *Early majority*: needs the product's *completeness, ease of use, consistency with their way of life and legitimacy*, via high-reach, credible channels. Between early adopters and early majority a *chasm* (Moore) may open: sales drop while the firm must scale up production;
+- *Late majority and laggards*: the message stresses *reliability, simplicity and cost-effectiveness*, through credible channels with low cost per exposure.
 
-Marketers can also speed up adoption by targeting the individuals who are best placed to spread information to others.
+#note(title: "Research brief: creating an information epidemic (Gladwell)")[
+Three types of individuals can spark an information cascade: *connectors* (very many and diverse acquaintances, reaching many people), *mavens* (driven to gather and share knowledge, reaching fewer people in more convincing detail) and *salespersons* (naturally talented persuaders).
+]
 
 === Using marketing to shape perceptions and expectations
 
-Since customers prefer technologies they expect to succeed (especially when there are increasing returns), firms try to shape these expectations:
+The market is swayed by *perceptions and expectations* of installed base and complement availability, not only actual value. The firm signals that it intends and is able to win:
 
-- *Preannouncements and press releases*: heavy advertising, even for products with a small installed base, can create significant _mindshare_ (presence in customers' minds). _Vaporware_, i.e. products advertised before they are actually available, is used especially by software vendors to create an impression of ubiquity, which can drive rapid adoption once the product is released. It also buys the firm time: customers may delay their purchases waiting for its product, instead of buying from a competitor that could become the dominant design;
-- *Reputation*: expectations of success depend on the firm's track record in technological innovation, which signals how good the new product is likely to be. The firm's past commercial success also signals its ability to build the support network (distribution, advertising, alliances) needed to start the installed base–complementary goods cycle;
-- *Credible commitments*: the firm can signal its commitment to a technology by making large investments that would be difficult to reverse, showing that it will not abandon it.
+- *Preannouncements and press releases*: heavy promotion raises the *perceived installed base* (_mindshare_), which drives actual adoptions. _Vaporware_ (products advertised before they exist or are available) creates an impression of ubiquity and can make customers *delay purchases* rather than adopt a rival's design;
+- *Reputation*: a *technological* track record signals product value; *commercial* success signals the ability to build the support network that starts the installed base-complements cycle;
+- *Credible commitments*: large investments that are hard to reverse (and guarantees) show that the firm will not abandon the technology and can challenge incumbents.
