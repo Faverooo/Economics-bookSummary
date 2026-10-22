@@ -51,6 +51,8 @@
 
 = Sources of innovation
 
+Innovation can arise from many different sources:
+
 - *Individuals*: lone inventors or users designing solutions for their own needs;
 - *Universities*, *government laboratories and incubators*, and *private non-profit organizations*;
 - *Firms*: a primary engine, thanks to greater resources, management systems, and incentives to differentiate.
@@ -88,9 +90,7 @@ Organizational creativity is *not a simple aggregate* of individual creativity: 
 
 == Translating creativity into innovation
 
-Innovation requires _implementing_ a creative idea, combining it with the *resources and expertise* to embody it in a useful form:
-
-Innovation therefore requires creativity plus the resources and expertise to implement it.
+Innovation requires _implementing_ a creative idea, combining it with the *resources and expertise* to embody it in a useful form.
 
 === The inventor
 
@@ -143,7 +143,7 @@ Forms of collaboration: *alliances*, *research consortia*, *licensing arrangemen
 *Universities.* In the US, they are the *second largest R&D performer after industry* and the *first in basic research*.
 
 - *Technology transfer offices*: facilitate transferring technology from research to commercial application;
-- They spread in the US after the *Bayh-Dole Act* (1980), which let universities collect royalties on taxpayer-funded inventions (previously the federal government held all rights). Some countries (Sweden, Italy) keep the *"professor's privilege"* (faculty own their inventions);
+- They spread in the US after the *Bayh-Dole Act*, which let universities collect royalties on inventions funded with public money;
 - Licensing revenues were far lower than expected, so universities now actively create *start-ups* from their IP and build ties with industry;
 - Universities also contribute through *publication of research results*.
 
@@ -160,7 +160,7 @@ Private non-profits (research institutes, non-profit hospitals, foundations, pro
 
 == Innovation in collaborative networks <collab-networks>
 
-Collaborative R&D networks include joint ventures, licensing and second-sourcing agreements, research associations, government-sponsored joint research programs, value-added networks for technical and scientific interchange, and informal networks. They matter most in *high-technology sectors*.
+Collaborative R&D networks (joint ventures, licensing agreements, research associations, joint research programs, informal networks) matter most in *high-technology sectors*.
 
 Networks act as *conduits for information and other resources*, giving members access to more than each owns. Network *structure* shapes information flow: in a *dense network* diffusion is *rapid and widespread* (firm position: Chapter 8).
 
@@ -407,42 +407,11 @@ A dominant design's influence extends *beyond its own technology cycle*, creatin
 
 *Stand-alone value*: value excluding installed base and complements (e.g. speed, ease of use, price).
 
-*Buyer Utility Map* (Kim and Mauborgne): *six stages of the buyer experience cycle* x *six utility levers* = *36-cell grid*; each cell is an opportunity for a new value proposition. It can be adapted beyond consumer products.
-
-#align(center)[
-  #table(
-    columns: 2,
-    stroke: 0.5pt + luma(180),
-    inset: 7pt,
-    align: left,
-    table.header([*Stages of the buyer experience cycle*], [*Utility levers*]),
-    [purchase], [customer productivity],
-    [delivery], [simplicity],
-    [use], [convenience],
-    [supplements], [risk],
-    [maintenance], [fun and image],
-    [disposal], [environmental friendliness],
-  )
-]
-
-Value is the *ratio of benefits to cost*.
+*Buyer Utility Map* (Kim and Mauborgne): crosses the *stages of the buyer experience* (purchase, delivery, use, supplements, maintenance, disposal) with the *utility levers* (customer productivity, simplicity, convenience, risk, fun and image, environmental friendliness); each cell is an opportunity for a new value proposition. Value is the *ratio of benefits to cost*.
 
 === Network externality value
 
-*Network externality value*: value from installed base and complements:
-
-#align(center)[
-  #table(
-    columns: 2,
-    stroke: 0.5pt + luma(180),
-    inset: 7pt,
-    align: left,
-    table.header([*Case*], [*Implication*]),
-    [(a) Existing technology], [stand-alone utility + installed base + complements],
-    [(b) New, incompatible technology], [competes on stand-alone utility alone, which must *eclipse the combined value* of the incumbent; so superior innovations often fail],
-    [(c) New, compatible technology], [inherits network value: a *moderate* advantage suffices],
-  )
-]
+*Network externality value*: value from installed base and complements. An existing technology offers stand-alone utility + installed base + complements; a *new incompatible* technology competes on stand-alone utility alone, which must *eclipse the incumbent's combined value* (so superior innovations often fail); a *new compatible* one inherits network value, so a moderate advantage suffices.
 
 === Actual, perceived and expected value
 
@@ -465,7 +434,7 @@ Tipping depends on how fast value rises with installed base and how large a base
 
 === Network benefits vs monopoly costs
 
-To judge when a firm is too dominant, compare *network externality returns* to share (*S-shaped*) with *monopoly costs* to consumers (higher prices, less variety, stifled innovation; often *exponentially increasing*). Below the crossing point X benefits exceed costs. X moves *right* with higher technological utility and *left* if network returns flatten earlier. The cost curve's steepness depends on the firm's *discretionary behavior* (e.g. not charging the maximum price, or subtly favoring some suppliers or complementors).
+A dominant design benefits consumers through network externalities, but also imposes *monopoly costs* (higher prices, less variety, stifled innovation). Up to a certain market share the benefits exceed the costs; beyond it, the dominance harms consumers. How fast costs rise depends on the dominant firm's *behavior* (e.g. how it prices, how it treats complementors).
 
 == Modularity and platform competition
 
@@ -475,18 +444,8 @@ When value depends heavily on complements, firms use modularity to build a *plat
 
 *Modularity*: the degree to which a system's components can be separated and recombined #ex[phones, Garmin, etc.]. It increases by *expanding the range of compatible components* and *uncoupling integrated functions within components*. Progression: (A) integrated bundle; (B) bundle compatible with third-party complements; (C) modular product with third-party components and complements.
 
-#align(center)[
-  #table(
-    columns: 2,
-    stroke: 0.5pt + luma(180),
-    inset: 7pt,
-    align: left,
-    table.header([*Advantages of tight integration*], [*Advantages of modularity*]),
-    [customized components achieve higher performance], [more choice, closer fit to customer needs],
-    [more control over quality and reliability], [*economies of substitution*: variety from recombining components while keeping scale economies],
-    [appeals to customers who do not want to assemble], [],
-  )
-]
+- *Tight integration*: higher performance from customized components, more control over quality and reliability, simpler for customers;
+- *Modularity*: more choice and a closer fit to customer needs, and *economies of substitution* (variety from recombining components while keeping scale economies).
 
 Modularity is more valuable with *(a) diverse technological options* and *(b) heterogeneous customer preferences*.
 
@@ -498,20 +457,7 @@ An *ecosystem* is a system whose elements share mutual dependence; a *platform* 
 - *Interdependence*: each member's success depends on the others, even competitors;
 - *Switching costs*: co-specialization and exclusivity create stickier ties than market contracts.
 
-It is a *hybrid organizational form*, a *compromise between pure modularity (loose coupling) and pure integration (tight coupling)*:
-
-#align(center)[
-  #table(
-    columns: 3,
-    stroke: 0.5pt + luma(180),
-    inset: 7pt,
-    align: left,
-    table.header([*Pure integration*], [*Platforms*], [*Pure modularity*]),
-    [producer decides combinations], [choice shepherded by sponsor], [most choice],
-    [high co-specialization], [some], [none],
-    [producer controls quality], [sponsor curates third parties], [quality uncertain],
-  )
-]
+It is a *hybrid organizational form*, a *compromise between pure integration* (the producer decides and controls everything) *and pure modularity* (most choice, but uncertain quality): the sponsor shepherds customers' choices and curates third-party complements.
 
 *Platforms beat a tightly integrated product when*:
 + customers are diverse and want more choice than one firm can offer;
@@ -570,9 +516,7 @@ The choice depends on:
 + *Does the firm have resources to accelerate market acceptance?* Capital for market education, supplier/distributor development and complements gives some influence on the *shape of the adoption curve* and more discretion to enter early;
 + *Is the firm's reputation likely to reduce the uncertainty of customers, suppliers and distributors?* A strong track record signals quality and attracts partners, allowing earlier adoptions.
 
-#note(title: "Research brief: whether and when to enter? (Mitchell)")[
-Entry barriers and imitability interact: if only one firm can produce an inimitable good, it can enter whenever it wants; if several firms could produce a good that will then be inimitable, they *race* to enter; if the good is highly imitable, firms *wait* while others bear development costs. Incumbents were more likely to enter a new subfield if they had useful specialized assets (e.g. distribution) or their current products were threatened, and entered earlier if their core products were threatened and there were several potential rivals.
-]
+#note(title: "Research brief (Mitchell)")[If several firms could produce a good that will be inimitable, they *race* to enter; if it is easily imitable, they *wait* while others bear the development costs.]
 
 == Strategies to improve timing options
 
@@ -636,19 +580,10 @@ Steps:
 
 It identifies *strengths and weaknesses*, often activity by activity along Porter's *value chain*:
 
-- *Primary activities*:
-  - _inbound logistics_: receiving, storing and disseminating inputs;
-  - _operations_: transforming inputs into outputs;
-  - _outbound logistics_: collecting, storing and distributing outputs;
-  - _marketing and sales_: informing buyers and inducing purchase;
-  - _service_: after-sales activities that keep the product working.
-- *Support activities*:
-  - _procurement_: acquiring inputs (not their physical transfer, which is inbound logistics);
-  - _human resource management_: recruiting, hiring, training, compensating;
-  - _technology development_: equipment, hardware, software, procedures and knowledge to transform inputs into outputs;
-  - _infrastructure_: accounting, legal, finance, planning, public affairs, government relations, quality assurance, general management.
+- *Primary activities*: inbound logistics, operations, outbound logistics, marketing and sales, service;
+- *Support activities*: procurement, human resource management, technology development, infrastructure.
 
-The model is *generic and adaptable* (e.g. in biotech or software R&D is primary, inbound logistics negligible).
+The model is *generic and adaptable* to the firm (e.g. in biotech or software, R&D is a primary activity).
 
 ==== Sustainable competitive advantage
 
@@ -708,36 +643,16 @@ Without it, firms develop products for *current* rather than *future* requiremen
 
 === The resource and capability gap
 
-The firm identifies what it must *develop or acquire* to close the gap (including any *technological gap*) between current position and intent.
-
-#align(center)[
-  #table(
-    columns: 3,
-    stroke: 0.5pt + luma(180),
-    inset: 7pt,
-    align: left,
-    table.header([*Firm's current position*], [], [*Firm's desired future position*]),
-    [Resources and capabilities underlying the current position], [#sym.arrow.r *Resource and capability gap* #sym.arrow.r], [Resources and capabilities necessary for the future position],
-  )
-]
+The firm identifies the resources and capabilities it must *develop or acquire* to close the gap (including any *technological gap*) between its current position and the position required by its strategic intent.
 
 === The balanced scorecard
 
 *Kaplan and Norton*: how performance is measured shapes how objectives are pursued, so measures must go beyond financials. The *balanced scorecard* sets goals and measures from *four perspectives* (adapted to the business):
 
-#align(center)[
-  #table(
-    columns: 3,
-    stroke: 0.5pt + luma(180),
-    inset: 7pt,
-    align: left,
-    table.header([*Perspective*], [*Example goals*], [*Example measures*]),
-    [*Financial* (shareholders)], [meet shareholders' expectations, double corporate value], [return on capital, net cash flow, earnings growth],
-    [*Customer*], [loyalty, best-in-class service, satisfaction], [market share, % repeat purchases, satisfaction surveys],
-    [*Internal* business process], [fewer safety incidents, better inventory management], [incidents per month, stockout rates, inventory costs],
-    [*Innovation and learning*], [faster, better NPD; employee skills], [% of sales from products of the last 5 years, cycle length, training targets],
-  )
-]
+- *Financial*: how the firm looks to shareholders;
+- *Customer*: how customers see the firm;
+- *Internal business process*: what the firm must excel at;
+- *Innovation and learning*: how the firm can keep improving and creating value.
 
 === Blue ocean strategy
 
@@ -784,14 +699,11 @@ Projects can be ranked with *quantitative methods* (discounted cash flows, real 
 
 Large firms fund innovation internally; start-ups (unproven technology, business concept, sometimes management) face a much *higher cost of capital* and need *external financing*:
 
-- *Family, friends and credit cards*: in the earliest, riskiest stage (also local bank debt; credit cards at very high interest).
-- *Government grants and loans*: e.g. the US *Small Business Administration (SBA)*; similar programs exist in other countries.
-- *Angel investors*: wealthy private investors funding smaller projects, sometimes also mentoring. They lose on many deals but earn very high returns on the winners. They often provide *seed-stage* financing (before a real product or organized company).
-- *Venture capital* (larger deals):
-  - _independent VC firms_ invest a pool of funds in high-growth projects, often specializing by industry and preferring nearby firms. They use a *debt-equity hybrid contract* (equity-like if the firm does well, debt-like if not) and cash out via *IPO* or *buyout*. They reject most proposals; funded firms gain credibility with other investors and mentoring. They fund mostly *early stages* (company organized, early product success, not yet self-sustaining).
-  - _strategic investors / corporate venture capital_: a firm in a related industry invests for strategic interest (e.g. a minority stake to access cutting-edge technology), possibly also as collaborator, supplier or customer. Two structures:
-    - *internal venturing group*, tied to the firm's development operations: better use of its expertise and resources, but the entrepreneur may fear *expropriation*;
-    - *dedicated external fund*: reassures the entrepreneur, but limits access to the firm's nonfinancial resources.
+- *Family, friends and credit cards*: in the earliest, riskiest stage;
+- *Government grants and loans*;
+- *Angel investors*: wealthy private investors funding smaller, *seed-stage* projects, sometimes also mentoring;
+- *Venture capital*: firms investing a pool of funds in high-growth projects, mostly at *early stages*, cashing out through an *IPO* or a *buyout*; besides money, they give credibility and mentoring;
+- *Corporate venture capital*: a firm in a related industry invests for strategic reasons (e.g. access to new technology). An *internal* venturing group gives access to the firm's resources, but the entrepreneur may fear *expropriation*; a *separate external fund* reassures the entrepreneur but limits that access.
 
 == Quantitative methods for choosing projects
 
@@ -860,18 +772,9 @@ Many factors are hard (or misleading) to quantify, so almost all firms use some 
 
 Management discusses each project's costs and benefits through categorized questions:
 
-- *Role of the customer*:
-  - _market_: likely customers, market size, marketing needed;
-  - _use_: how it will be used, new benefits, substitutes;
-  - _compatibility and ease of use_: fit with existing complements, learning required, perceived ease of use, other customer costs;
-  - _distribution and pricing_: where it is bought, installation/assembly needs, willingness to pay.
-- *Role of capabilities*:
-  - _existing_: leverages core competencies? makes competencies obsolete or cannibalizes products (transition strategy)? manufacturing capabilities available (in-house or outsourced)? new skills needed?
-  - _competitors'_: better capabilities? will they develop it anyway? can the firm protect its IP? collaborate with a competitor?
-  - _future_: builds capabilities for the strategic intent? enables other products/markets? platform for a product family?
-- *Project timing and cost*:
-  - _timing_: duration, first to market (is pioneering desirable?), market readiness (enabling/complementary technologies, customer perception), impact of missed deadlines, suppliers and distribution in place;
-  - _cost factors_: project cost and variability, manufacturing costs and their decline with experience, other adoption costs (complements, installation, support).
+- *Role of the customer*: market (who and how many customers), use (benefits, substitutes), compatibility and ease of use, distribution and pricing;
+- *Role of capabilities*: the firm's existing capabilities (does it leverage core competencies? does it cannibalize products?), competitors' capabilities (will they do it better? can the IP be protected?), future capabilities (does it build what the strategic intent needs?);
+- *Project timing and cost*: timing (duration, is being first desirable, is the market ready?) and cost factors (project, manufacturing and adoption costs).
 
 Answers can structure a *debate* or a *scoring mechanism* (scaled answers weighted by importance). They widen the issues considered and reveal hard-to-quantify value (e.g. preserving development capabilities).
 
@@ -898,14 +801,11 @@ Many firms combine methods (e.g. screening questions needing quantitative analys
 
 === Conjoint analysis
 
-A family of techniques (discrete choice, choice modeling, hierarchical choice, trade-off matrices, pairwise comparisons) that *statistically* estimate the *weight individuals put on each attribute of a choice*, which people struggle to state directly. Most common use: how *customers* value product attributes, for development and pricing. Customers rate or rank product configurations; a *multiple regression* on attribute levels gives each attribute's weight (implicit trade-offs), usable in *"what if" scenarios*.
+A family of techniques that *statistically* estimate the *weight individuals put on each attribute of a choice*, which people struggle to state directly. Most common use: how *customers* value product attributes, for development and pricing. Customers rate or rank product configurations; a *multiple regression* on attribute levels gives each attribute's weight (implicit trade-offs), usable in *"what if" scenarios*.
 
 === Data envelopment analysis (DEA)
 
-Ranks projects on *multiple criteria in different units* (e.g. cash flows in euros, rank orders of competency fit, scaled feasibility scores) against a *hypothetical efficiency frontier*:
-- *linear programming* builds a frontier of the *best performance on each measure* (hypothetical configurations optimizing a combination of features);
-- it can distinguish *inputs* (costs) from *outputs* (benefits);
-- each project's distance from the frontier gives an *efficiency value*, used to rank projects or spot dominant ones.
+Ranks projects on *multiple criteria measured in different units* against a *hypothetical efficiency frontier*, built (with linear programming) from the *best performance on each measure*. It can distinguish *inputs* (costs) from *outputs* (benefits); each project's distance from the frontier gives an *efficiency value*, used to rank projects.
 
 Advantage: combines *multiple kinds of measures*. Limit: *only as good as the data*; managers must choose accurate measures.
 
@@ -1024,18 +924,18 @@ Deciding *whether and how much to protect* an innovation is complex: protection 
 
 === Patents
 
-A *patent* protects an invention (a *product* or a *process*), usually for 20 years. Types (US): *utility* (process, machine, manufactured item), *design* (ornamental design of an item), *plant* (new plant varieties). Requirements:
+A *patent* protects an invention (a *product* or a *process*) for a limited period, in exchange for disclosing it. Requirements:
 
 + *Useful*: it produces a desirable result or solves a problem;
 + *Novel*: not already patented, published, or publicly used;
 + *Non-obvious*: a skilled person would not reach it with normal effort.
 
-Natural laws and trivial changes (substituting materials, changing size or shape, portability) are not patentable; software can now be. The inventor must explain how to make and use the invention and state its *claims*, which are examined and opened to challenge. The process is *long and costly*, a problem with *short product life cycles*.
+Natural laws and trivial changes (e.g. substituting materials, changing size or shape) are not patentable. The process is *long and costly*, a problem with *short product life cycles*.
 
-*International harmonization*: there is *no "world patent"* and national laws differ (e.g. disclosure before filing bars a patent in most countries; *working requirements*; *first to file*, now dominant, vs *first to invent*). Key treaties:
+*International harmonization*: there is *no "world patent"* and national laws differ (e.g. *first to file*, now dominant, vs *first to invent*). Key treaties:
 
-- *Paris Convention*: foreigners get the same rights as citizens, plus a *priority right*: later applications in other members within a time window count as made on the *first filing date*;
-- *Patent Cooperation Treaty (PCT)*: one application reserves the right to file in many countries, *delaying national costs* while the inventor assesses patentability and profitability, and making outcomes more uniform.
+- *Paris Convention*: foreigners get the same rights as citizens, plus a *priority right*: applications in other member countries within a time window count as made on the *first filing date*;
+- *Patent Cooperation Treaty (PCT)*: one application reserves the right to file in many countries, *delaying national costs* while the inventor assesses whether the patent is worth it.
 
 *Patent strategies*:
 
@@ -1046,7 +946,7 @@ Natural laws and trivial changes (substituting materials, changing size or shape
 
 === Trademarks and service marks
 
-A *trademark* is a word, symbol, design or other indicator distinguishing the source of a good #ex[a brand name or logo]; a *service mark* does the same for a service. It can use any sense (sounds, smells). It prevents *confusingly similar* marks, not selling the same goods under a different mark. Rights arise from *use*; registration is optional but gives public notice and is needed to sue. Protection lasts *as long as the mark is used* (with renewal). The *Madrid Agreement* and *Madrid Protocol* let one registration extend to other member countries.
+A *trademark* is a word, symbol, design or other indicator distinguishing the source of a good; a *service mark* does the same for a service. It prevents others from using *confusingly similar* marks. Rights arise from *use* (registration gives public notice and is needed to sue), and protection lasts *as long as the mark is used*. The *Madrid Agreement* and *Madrid Protocol* let one registration extend to other member countries.
 
 === Copyrights
 
@@ -1054,15 +954,7 @@ A *trademark* is a word, symbol, design or other indicator distinguishing the so
 
 == Trade secrets
 
-A *trade secret* is business information *kept private* #ex[the Coca-Cola recipe]. Requirements are less stringent than for patents, so a *broader class of assets* qualifies (formulas, customer data, marketing strategies, processes). Under the US *Uniform Trade Secret Act* the information must be *not generally known* or readily ascertainable, have *value contingent on secrecy*, and be protected by *reasonable measures*. Then nobody may use it without authorization if they:
-
-+ have a *duty of confidentiality* (employees, lawyers);
-+ signed a *nondisclosure agreement*;
-+ obtained it by *improper means* (theft, bribery);
-+ got it from someone with *no right to disclose* it;
-+ learned it *by mistake* knowing it was protected.
-
-The owner can obtain an *injunction* and *damages*.
+A *trade secret* is business information *kept private*. Requirements are less stringent than for patents, so a *broader class of assets* qualifies (formulas, customer data, marketing strategies, processes). To be protected, the information must be *not generally known*, have *value contingent on secrecy*, and be protected by *reasonable measures*. Then people bound by confidentiality (employees, nondisclosure agreements) or who obtained it improperly cannot use it, and the owner can obtain an *injunction* and *damages*.
 
 == Effectiveness and use of protection mechanisms
 
@@ -1075,7 +967,7 @@ With *increasing returns to adoption*, the standard's owner earns *monopoly rent
 Firms sit on a *control continuum*: wholly proprietary, limited, moderate and liberal licensing, wholly open.
 
 - *Wholly proprietary systems*: owned and protected technology, produced or augmented only by the developer, often incompatible with others. They allow appropriation, but customers may resist *higher costs* and the *inability to mix and match* components;
-- *Wholly open systems*: unprotected, freely accessed, augmented and distributed #ex[open-source software]; quickly *commoditized*, with little appropriability;
+- *Wholly open systems*: unprotected, freely accessed, augmented and distributed (e.g. open source); quickly *commoditized*, with little appropriability;
 - *Partially open systems*: e.g. licensing complement providers while controlling the core. Technologies become wholly open when patents *expire*.
 
 == Advantages of protection and diffusion
@@ -1145,7 +1037,7 @@ The effect of centralization on flexibility is *ambiguous*: a centralized firm c
 
 *Tushman and O'Reilly*: an *ambidextrous organization* has a complex form composed of multiple, internally inconsistent architectures that together achieve short-term efficiency (incremental innovation) and long-term innovation (radical innovation). Approaches:
 
-- *Different structures in different units*: mechanistic, centralized manufacturing alongside an organic, decentralized R&D division with its own incentives #ex[a mechanistic main business plus an organic, independent division for new technologies];
+- *Different structures in different units*: mechanistic, centralized manufacturing alongside an organic, decentralized R&D division with its own incentives;
 - *Isolating teams*: teams that interact too closely converge early on the same ideas; *skunk works* (teams operating nearly autonomously from the parent, with little bureaucracy) explore freely. Entrepreneurial units give a large firm small-firm incentives, making the size debate partly moot;
 - *Alternating structures over time*: *Schoonhoven and Jelinek* found a *dynamic tension*: formal structures plus frequent reorganizations, and *quasiformal structures* (teams, task forces, dotted-line relationships) that change fast and span boundaries, but take time to manage and are *hard to kill*.
 
@@ -1207,9 +1099,7 @@ A *senior project champion* is a senior manager who supports and fights for a pr
 
 Remedies: *antichampions* (devil's advocates), a culture open to *dissent*, and justification on *objective criteria*.
 
-#note(title: "Research brief: five myths about product champions (Markham and Aiman-Smith)")[
-Evidence shows that projects with champions are *not* more likely to succeed in the market; champions often act out of *self-interest*; and they are equally involved in radical and incremental projects, come from *any level* and from *many functions* (not mainly marketing).
-]
+#note(title: "Research brief (Markham and Aiman-Smith)")[Projects with champions are *not* more likely to succeed in the market, and champions can come from any level and function.]
 
 == Involving customers and suppliers in the development process
 
@@ -1267,15 +1157,15 @@ Identifies *potential failures*, rates each on *severity*, *likelihood of occurr
 
 == Tools for measuring new product development performance
 
-Measures (e.g. periodic reviews, *postmortems* after projects) help to identify which projects met their goals and why, *benchmark* performance, improve resource allocation and compensation, and refine innovation strategy. *Multiple measures* are needed, interpreted in light of the firm's strategy and industry #ex[breakthrough-focused firms score low on cycle time].
+Measures (e.g. periodic reviews, *postmortems* after projects) help to identify which projects met their goals and why, *benchmark* performance, improve resource allocation and compensation, and refine innovation strategy. *Multiple measures* are needed, interpreted in light of the firm's strategy and industry.
 
 === New product development process metrics
 
-Firms use various measures of the effectiveness and efficiency of their development process #ex[average time to market, percentage of projects completed on time and on budget, percentage of projects that reach the market]. Each measure captures a different aspect of the firm's ability to bring projects through development, and must be applied over a clearly defined period of time. Typical metrics: average *cycle time* (by breakthrough, platform, derivative projects), share of projects *meeting deadlines*, *within budget*, and *completed*.
+They measure the effectiveness and efficiency of the development process, over a clearly defined period: average *cycle time* (by breakthrough, platform, derivative projects), share of projects *meeting deadlines*, *within budget*, and *completed*.
 
 === Overall innovation performance
 
-Firms also measure their overall performance at innovation #ex[return on R&D investment, percentage of sales coming from products launched in the last few years], getting the "bang for the buck" of development: *return on innovation* (profits from new products relative to total development and commercialization spending), share of projects meeting *sales goals*, share of revenues from recent products, and successful projects relative to the total portfolio.
+They measure the overall "bang for the buck" of development: *return on innovation* (profits from new products relative to total development and commercialization spending), share of projects meeting *sales goals*, share of revenues from recent products, and successful projects relative to the total portfolio.
 
 = Managing new product development teams
 
@@ -1293,9 +1183,7 @@ By combining several bases of expertise, teams are powerful problem-solving mech
 - a *shared sense of identity* is harder to foster;
 - *social loafing* increases: individuals rely on others' work instead of exerting the expected effort, because they perceive they will not receive full credit (or blame) for their contribution.
 
-#note(title: "Research brief: why brainstorming teams kill breakthrough ideas")[
-Brainstorming groups produce *fewer and less novel ideas* than the same number of individuals working alone, because of *fear of judgment* (self-censorship), *production blocking* (waiting one's turn, being distracted by others' ideas) and *feasibility trumping originality* when groups select ideas. For breakthroughs, give people *time alone* before exposing ideas to the team.
-]
+#note(title: "Research brief")[Brainstorming groups produce fewer and less novel ideas than individuals working alone (see "Using culture and norms to foster innovation"); groups also tend to pick feasible over original ideas.]
 
 === Team composition
 
@@ -1353,9 +1241,7 @@ Challenges: no benefits of *collocation* (rich face-to-face and informal interac
 - *selection*: members comfortable with the technologies, with strong *interpersonal skills*, independent, hard-working, and who *seek interaction*;
 - *administration*: standards for *response times* and availability for *synchronous communication* (all parties at the same time, e.g. calls); informal interaction built into the *ground rules* (e.g. scheduled unstructured chat times).
 
-#note(title: "Research brief: virtual international R&D teams (Gassman and von Zedtwitz)")[
-Four patterns, from decentralized to centralized: *decentralized self-coordination* (weak coordination relying on corporate culture; suits *modular* innovation), *system integrator as coordinator*, *core team as system architect* (can handle *architectural* innovation), *centralized venture team* (all resources relocated under a powerful manager; costly). Radical, architectural or tacit-knowledge-intensive innovations require *more centralization*.
-]
+#note(title: "Research brief (Gassman and von Zedtwitz)")[Radical, architectural or tacit-knowledge-intensive innovations require *more centralized* virtual teams; modular innovations can be coordinated in a decentralized way.]
 
 = Crafting a deployment strategy
 
@@ -1406,7 +1292,7 @@ Firms can also shape cash flow and customers' *perception of costs* through _whe
 
 Firms can sell directly (sales force, online, catalog), or use *intermediaries*: *manufacturers' representatives* (independent agents selling one or a few manufacturers' lines), *wholesalers* (buy in bulk, resell in smaller or mixed bundles to other channel members) and *retailers* (sell to the public). Selling direct gives more control over selling, pricing and service, but can be impractical or too expensive.
 
-Intermediaries make distribution more efficient: they *break bulk* (manufacturers want to sell large quantities of few items, customers want small quantities of many), transport goods, carry inventory, sell, handle transactions and offer dispersed locations. *Original equipment manufacturers (OEMs)*, or *value-added resellers (VARs)*, play an even more crucial role: an OEM buys products or components from other manufacturers and assembles or customizes them into a product sold under its own name #ex[a PC maker buying processors from Intel]. Information technology has enabled *disintermediation*#footnote[The reduction of the number of intermediaries in a supply channel; for example, when manufacturers bypass wholesalers and/or retailers to sell directly to end users.] in some industries, but in most it has only rerouted the chain or reshaped intermediaries' roles.
+Intermediaries make distribution more efficient: they *break bulk* (manufacturers want to sell large quantities of few items, customers want small quantities of many), transport goods, carry inventory, sell, handle transactions and offer dispersed locations. *Original equipment manufacturers (OEMs)*, or *value-added resellers (VARs)*, play an even more crucial role: an OEM buys products or components from other manufacturers and assembles or customizes them into a product sold under its own name. Information technology has enabled *disintermediation*#footnote[The reduction of the number of intermediaries in a supply channel; for example, when manufacturers bypass wholesalers and/or retailers to sell directly to end users.] in some industries, but in most it has only rerouted the chain or reshaped intermediaries' roles.
 
 To choose, the firm should ask:
 
@@ -1439,9 +1325,7 @@ Adopter categories (Rogers) respond to different marketing:
 - *Early majority*: needs the product's *completeness, ease of use, consistency with their way of life and legitimacy*, via high-reach, credible channels. Between early adopters and early majority a *chasm* (Moore) may open: sales drop while the firm must scale up production;
 - *Late majority and laggards*: the message stresses *reliability, simplicity and cost-effectiveness*, through credible channels with low cost per exposure.
 
-#note(title: "Research brief: creating an information epidemic (Gladwell)")[
-Three types of individuals can spark an information cascade: *connectors* (very many and diverse acquaintances, reaching many people), *mavens* (driven to gather and share knowledge, reaching fewer people in more convincing detail) and *salespersons* (naturally talented persuaders).
-]
+#note(title: "Research brief (Gladwell)")[Information epidemics are sparked by *connectors* (many acquaintances), *mavens* (gather and share knowledge) and *salespersons* (talented persuaders).]
 
 === Using marketing to shape perceptions and expectations
 
